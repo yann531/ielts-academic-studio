@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.tools/
+.pnpm-store/
+releases/
+private/
+.env*
+!.env.example
+*.log
+*.tsbuildinfo
+test-results/
+playwright-report/
+.DS_Store
+desktop.ini
+*.tmp

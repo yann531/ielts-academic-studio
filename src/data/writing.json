@@ -1,0 +1,1780 @@
+[
+  {
+    "id": "writing-1",
+    "task": 1,
+    "type": "折线图",
+    "title": "通勤方式的变化",
+    "prompt": "The chart shows the percentage of commuters using three modes of transport in the fictional city of Arden between 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "analysis": "动态图：先比较方向，再看排序变化；时间过去，用过去时。",
+    "ideas": [
+      "汽车下降，铁路和自行车上升。",
+      "汽车始终最多，但与铁路差距缩小。",
+      "2000→2020 汽车减少 20 个百分点，不是减少 20%。"
+    ],
+    "outline": [
+      "引言改写城市、比例与时间。",
+      "Overview：变化方向与持续领先者。",
+      "主体一：汽车与铁路起终点及差距。",
+      "主体二：自行车的增长，作适量比较。"
+    ],
+    "chart": {
+      "kind": "line",
+      "labels": [
+        "2000",
+        "2005",
+        "2010",
+        "2015",
+        "2020"
+      ],
+      "series": [
+        {
+          "name": "Car",
+          "values": [
+            65,
+            61,
+            56,
+            49,
+            45
+          ]
+        },
+        {
+          "name": "Rail",
+          "values": [
+            20,
+            23,
+            27,
+            32,
+            35
+          ]
+        },
+        {
+          "name": "Bicycle",
+          "values": [
+            5,
+            7,
+            10,
+            13,
+            15
+          ]
+        }
+      ],
+      "unit": "%"
+    },
+    "visual": null,
+    "sample": "The line chart compares the proportions of commuters travelling by car, rail and bicycle in the fictional city of Arden from 2000 to 2020.\n\nOverall, car use declined, whereas both rail travel and cycling became more common. Cars nevertheless remained the most widely used of the three modes throughout the period, although their lead over rail narrowed considerably.\n\nIn 2000, 65% of commuters used cars, compared with 20% who travelled by rail. The figure for cars fell at every subsequent observation, reaching 56% in 2010 and 45% in 2020. Rail followed the opposite pattern, rising to 27% halfway through the period and ending at 35%. Consequently, the gap between these two modes decreased from 45 to 10 percentage points.\n\nCycling accounted for a much smaller proportion of journeys, but its share also increased steadily. Starting at 5%, it reached 10% in 2010 and finished at 15%, three times its initial level. Despite this growth, cycling remained less common than either of the other modes in the final year.",
+    "expressions": [
+      "accounted for the largest share",
+      "rose from … to …",
+      "remained relatively stable"
+    ],
+    "errors": [
+      "Overview 提炼主要趋势，不把所有数字重述一遍。",
+      "区分百分比变化与百分点差异；不补充图中没有的原因。"
+    ],
+    "source": "本站原创题目与虚构数据；图表为教学设计。",
+    "review": "教学示例，非考官认证范文；不标注分数。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-2",
+    "task": 1,
+    "type": "柱状图",
+    "title": "图书馆服务使用率",
+    "prompt": "The chart compares the percentage of surveyed visitors using four library services in two fictional towns in 2025. Visitors could select more than one service. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "analysis": "静态比较：服务类别不是时间趋势，不能用 rose/fell。",
+    "ideas": [
+      "两地借书最普遍。",
+      "North 的学习空间使用更高，South 的活动参与更高。",
+      "多选题比例总和不必为 100%。"
+    ],
+    "outline": [
+      "引言：地点、年份、调查。",
+      "Overview：共同最高项和主要差异。",
+      "主体一：借书与学习空间。",
+      "主体二：网络与活动。"
+    ],
+    "chart": {
+      "kind": "bar",
+      "labels": [
+        "Loans",
+        "Study space",
+        "Internet",
+        "Events"
+      ],
+      "series": [
+        {
+          "name": "North",
+          "values": [
+            72,
+            60,
+            35,
+            20
+          ]
+        },
+        {
+          "name": "South",
+          "values": [
+            68,
+            40,
+            38,
+            32
+          ]
+        }
+      ],
+      "unit": "%"
+    },
+    "visual": null,
+    "sample": null,
+    "expressions": [
+      "accounted for the largest share",
+      "rose from … to …",
+      "remained relatively stable"
+    ],
+    "errors": [
+      "Overview 提炼主要趋势，不把所有数字重述一遍。",
+      "区分百分比变化与百分点差异；不补充图中没有的原因。"
+    ],
+    "source": "本站原创题目与虚构数据；图表为教学设计。",
+    "review": "教学示例，非考官认证范文；不标注分数。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-3",
+    "task": 1,
+    "type": "饼图",
+    "title": "家庭能源构成",
+    "prompt": "The figures show the distribution of household energy use in a fictional region in 2005 and 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "analysis": "两年构成：比较最大项、变化方向，勿把能耗比例当绝对消耗量。",
+    "ideas": [
+      "供暖最大但占比下降。",
+      "电器与热水占比上升。",
+      "没有总能耗数据，不能写消耗量绝对增加。"
+    ],
+    "outline": [
+      "引言改写构成。",
+      "Overview：供暖领先但下降。",
+      "主体：供暖与热水。",
+      "主体：电器和其他。"
+    ],
+    "chart": {
+      "kind": "pie",
+      "labels": [
+        "Heating",
+        "Hot water",
+        "Appliances",
+        "Other"
+      ],
+      "series": [
+        {
+          "name": "2005",
+          "values": [
+            55,
+            20,
+            15,
+            10
+          ]
+        },
+        {
+          "name": "2025",
+          "values": [
+            40,
+            25,
+            25,
+            10
+          ]
+        }
+      ],
+      "unit": "%"
+    },
+    "visual": null,
+    "sample": null,
+    "expressions": [
+      "accounted for the largest share",
+      "rose from … to …",
+      "remained relatively stable"
+    ],
+    "errors": [
+      "Overview 提炼主要趋势，不把所有数字重述一遍。",
+      "区分百分比变化与百分点差异；不补充图中没有的原因。"
+    ],
+    "source": "本站原创题目与虚构数据；图表为教学设计。",
+    "review": "教学示例，非考官认证范文；不标注分数。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-4",
+    "task": 1,
+    "type": "表格",
+    "title": "国际学生人数",
+    "prompt": "The table gives the numbers of international students in three departments at a fictional university in 2015 and 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "analysis": "人数表：比较增长率与绝对增长，别把 department 写成 country。",
+    "ideas": [
+      "工程人数最多且增量最大。",
+      "艺术由 120 到 180，增幅 50%。",
+      "商业从 240 到 300，增幅较小。"
+    ],
+    "outline": [
+      "引言部门与两年。",
+      "Overview：全增、工程最多。",
+      "主体一：工程。",
+      "主体二：艺术与商业对比。"
+    ],
+    "chart": {
+      "kind": "table",
+      "labels": [
+        "Engineering",
+        "Arts",
+        "Business"
+      ],
+      "series": [
+        {
+          "name": "2015",
+          "values": [
+            400,
+            120,
+            240
+          ]
+        },
+        {
+          "name": "2025",
+          "values": [
+            620,
+            180,
+            300
+          ]
+        }
+      ],
+      "unit": "students"
+    },
+    "visual": null,
+    "sample": null,
+    "expressions": [
+      "accounted for the largest share",
+      "rose from … to …",
+      "remained relatively stable"
+    ],
+    "errors": [
+      "Overview 提炼主要趋势，不把所有数字重述一遍。",
+      "区分百分比变化与百分点差异；不补充图中没有的原因。"
+    ],
+    "source": "本站原创题目与虚构数据；图表为教学设计。",
+    "review": "教学示例，非考官认证范文；不标注分数。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-5",
+    "task": 1,
+    "type": "组合图",
+    "title": "游客与平均消费",
+    "prompt": "The figures show annual visitor numbers and average spending per visitor at a fictional museum from 2018 to 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "analysis": "两个量纲分别描述：人数与每人支出不混成总收入。",
+    "ideas": [
+      "游客先降后恢复。",
+      "平均消费持续上升。",
+      "2022 游客略超起点，支出明显更高。"
+    ],
+    "outline": [
+      "引言：两项指标。",
+      "Overview：人数波动，支出上升。",
+      "主体：游客变化。",
+      "主体：人均消费比较。"
+    ],
+    "chart": {
+      "kind": "combo",
+      "labels": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "series": [
+        {
+          "name": "Visitors (thousands)",
+          "values": [
+            120,
+            130,
+            60,
+            95,
+            135
+          ]
+        },
+        {
+          "name": "Spend (£ per visitor)",
+          "values": [
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ],
+      "unit": "see series"
+    },
+    "visual": null,
+    "sample": null,
+    "expressions": [
+      "accounted for the largest share",
+      "rose from … to …",
+      "remained relatively stable"
+    ],
+    "errors": [
+      "Overview 提炼主要趋势，不把所有数字重述一遍。",
+      "区分百分比变化与百分点差异；不补充图中没有的原因。"
+    ],
+    "source": "本站原创题目与虚构数据；图表为教学设计。",
+    "review": "教学示例，非考官认证范文；不标注分数。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-6",
+    "task": 1,
+    "type": "地图",
+    "title": "校园空间改造",
+    "prompt": "The plans show the layout of a fictional campus square in 2010 and after redevelopment in 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "analysis": "地图：方向和空间变化；保留项与新建项都要讲，不解释设计动机。",
+    "ideas": [
+      "西侧停车场改成花园。",
+      "图书馆与东侧实验楼保留。",
+      "南侧咖啡馆替换储藏室，中央新增步行道。"
+    ],
+    "outline": [
+      "引言：同一广场两年。",
+      "Overview：停车转绿地，步行设施增加。",
+      "主体：西/北保留和替换。",
+      "主体：南/中央新增。"
+    ],
+    "chart": null,
+    "visual": "MAP:2010|North: Library|West: Car park|Centre: Open square|East: Laboratory|South: Storage;2025|North: Library|West: Garden|Centre: Pedestrian paths|East: Laboratory|South: Cafe",
+    "sample": null,
+    "expressions": [
+      "accounted for the largest share",
+      "rose from … to …",
+      "remained relatively stable"
+    ],
+    "errors": [
+      "Overview 提炼主要趋势，不把所有数字重述一遍。",
+      "区分百分比变化与百分点差异；不补充图中没有的原因。"
+    ],
+    "source": "本站原创题目与虚构数据；图表为教学设计。",
+    "review": "教学示例，非考官认证范文；不标注分数。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-7",
+    "task": 1,
+    "type": "流程图",
+    "title": "纸张回收过程",
+    "prompt": "The diagram illustrates a simplified process for recycling used paper. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "analysis": "无时间数据的人工流程，用一般现在时及被动语态；只讲图示。",
+    "ideas": [
+      "六个主要环节，收集到成纸。",
+      "筛选去除不合适材料。",
+      "加水制浆后清洁，最后压制干燥。"
+    ],
+    "outline": [
+      "引言描述过程。",
+      "Overview：起点终点和阶段数。",
+      "主体一：收集、分类、制浆。",
+      "主体二：清洁、压制、干燥。"
+    ],
+    "chart": null,
+    "visual": "FLOW:Collection → Sorting → Mixing with water → Cleaning pulp → Pressing → Drying into paper",
+    "sample": "The diagram illustrates a simplified sequence in which used paper is converted into recycled paper.\n\nOverall, the process consists of six main stages, beginning with the collection of discarded paper and ending with the production of dry paper. Between these points, the material is sorted, mixed with water and cleaned before it is pressed and dried.\n\nAt the first stage, used paper is collected so that it can enter the recycling process. The collected material is then sorted. After this preparation, water is added to the paper to form pulp. These initial steps change the material from separate pieces of discarded paper into a mixture that can be processed further.\n\nNext, the pulp passes through a cleaning stage. The cleaned material is subsequently pressed, after which it moves to the final drying stage. Once drying is complete, recycled paper is produced. The diagram presents these operations as a single sequence and does not show a return to any earlier stage or provide information about the time required for individual steps.",
+    "expressions": [
+      "accounted for the largest share",
+      "rose from … to …",
+      "remained relatively stable"
+    ],
+    "errors": [
+      "Overview 提炼主要趋势，不把所有数字重述一遍。",
+      "区分百分比变化与百分点差异；不补充图中没有的原因。"
+    ],
+    "source": "本站原创题目与虚构数据；图表为教学设计。",
+    "review": "教学示例，非考官认证范文；不标注分数。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-8",
+    "task": 1,
+    "type": "柱状图",
+    "title": "研究经费分配",
+    "prompt": "The chart shows funding allocated to four research fields by two fictional institutions in 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "analysis": "金额的静态比较，注意单位 million，别称为百分比。",
+    "ideas": [
+      "A 对医疗投入最高，B 对能源最高。",
+      "A 的医疗经费是 B 的两倍。",
+      "环境经费相同。"
+    ],
+    "outline": [
+      "引言：单位与年份。",
+      "Overview：最高项与共同点。",
+      "主体：医疗和能源。",
+      "主体：环境与教育。"
+    ],
+    "chart": {
+      "kind": "bar",
+      "labels": [
+        "Health",
+        "Energy",
+        "Environment",
+        "Education"
+      ],
+      "series": [
+        {
+          "name": "Institute A",
+          "values": [
+            40,
+            25,
+            20,
+            15
+          ]
+        },
+        {
+          "name": "Institute B",
+          "values": [
+            20,
+            35,
+            20,
+            25
+          ]
+        }
+      ],
+      "unit": "£ million"
+    },
+    "visual": null,
+    "sample": null,
+    "expressions": [
+      "accounted for the largest share",
+      "rose from … to …",
+      "remained relatively stable"
+    ],
+    "errors": [
+      "Overview 提炼主要趋势，不把所有数字重述一遍。",
+      "区分百分比变化与百分点差异；不补充图中没有的原因。"
+    ],
+    "source": "本站原创题目与虚构数据；图表为教学设计。",
+    "review": "教学示例，非考官认证范文；不标注分数。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-9",
+    "task": 1,
+    "type": "折线图",
+    "title": "线上课程完成率",
+    "prompt": "The chart shows completion rates for two types of online courses at a fictional college from 2019 to 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "analysis": "百分比走势：两组都增长，辅导组持续更高。不要把关联解释成因果。",
+    "ideas": [
+      "Mentored 由 60% 到 80%。",
+      "Self-paced 由 40% 到 58%。",
+      "差距总体相近，没有证据解释原因。"
+    ],
+    "outline": [
+      "引言：完成率、课程类型、时间。",
+      "Overview：双升，辅导型更高。",
+      "主体：辅导型时间线。",
+      "主体：自主型与差距。"
+    ],
+    "chart": {
+      "kind": "line",
+      "labels": [
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "series": [
+        {
+          "name": "Mentored",
+          "values": [
+            60,
+            64,
+            70,
+            75,
+            80
+          ]
+        },
+        {
+          "name": "Self-paced",
+          "values": [
+            40,
+            44,
+            48,
+            54,
+            58
+          ]
+        }
+      ],
+      "unit": "%"
+    },
+    "visual": null,
+    "sample": null,
+    "expressions": [
+      "accounted for the largest share",
+      "rose from … to …",
+      "remained relatively stable"
+    ],
+    "errors": [
+      "Overview 提炼主要趋势，不把所有数字重述一遍。",
+      "区分百分比变化与百分点差异；不补充图中没有的原因。"
+    ],
+    "source": "本站原创题目与虚构数据；图表为教学设计。",
+    "review": "教学示例，非考官认证范文；不标注分数。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-10",
+    "task": 1,
+    "type": "表格",
+    "title": "三座城市的出行指标",
+    "prompt": "The table compares average journey time and public transport use in three fictional cities in 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "analysis": "不同指标比较：分钟越少不自动等于交通更好，限于数据。",
+    "ideas": [
+      "Cedar 公交比例最高、平均时间最长。",
+      "Alder 时间最短，公交比例最低。",
+      "不能写公交导致路程更长。"
+    ],
+    "outline": [
+      "引言：两项指标。",
+      "Overview：最高和最低组合。",
+      "主体：时间比较。",
+      "主体：公交比例并避免因果。"
+    ],
+    "chart": {
+      "kind": "table",
+      "labels": [
+        "Alder",
+        "Birch",
+        "Cedar"
+      ],
+      "series": [
+        {
+          "name": "Journey time (minutes)",
+          "values": [
+            22,
+            31,
+            38
+          ]
+        },
+        {
+          "name": "Public transport (%)",
+          "values": [
+            25,
+            40,
+            55
+          ]
+        }
+      ],
+      "unit": "see series"
+    },
+    "visual": null,
+    "sample": null,
+    "expressions": [
+      "accounted for the largest share",
+      "rose from … to …",
+      "remained relatively stable"
+    ],
+    "errors": [
+      "Overview 提炼主要趋势，不把所有数字重述一遍。",
+      "区分百分比变化与百分点差异；不补充图中没有的原因。"
+    ],
+    "source": "本站原创题目与虚构数据；图表为教学设计。",
+    "review": "教学示例，非考官认证范文；不标注分数。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-11",
+    "task": 2,
+    "type": "同意与否",
+    "title": "免费公共交通",
+    "prompt": "Some people believe that public transport should be free for everyone. To what extent do you agree or disagree? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "明确赞成程度；区分免费与服务质量、针对性补贴。",
+    "ideas": [
+      "可选立场：优先补贴弱势群体而非全体免费。",
+      "零票价降低负担，但车次和可靠性也决定使用。",
+      "财政有限时，全体免费可能挤占运营维护。"
+    ],
+    "outline": [
+      "引言：支持可负担交通，但不主张全面免费。",
+      "主体一：目标补贴的公平与出行机会。",
+      "主体二：运营资金和服务供给约束。",
+      "结尾：补贴与服务投入组合。"
+    ],
+    "expressions": [
+      "targeted subsidies",
+      "reliable services",
+      "allocate limited public funds"
+    ],
+    "errors": [
+      "逐项回应题目，不将背过的相近话题作文直接套用。",
+      "例子用于解释机制，不编造机构、调查或精确统计。",
+      "词汇以准确自然为先；论点后写清 why/how。"
+    ],
+    "sample": "Making public transport free is an appealing way to reduce travel costs. Although I support substantial help for people who struggle to afford essential journeys, I do not think removing fares for every passenger should be the main priority in all cities.\n\nThere is a strong case for reducing the cost of transport for those who depend on it. A person looking for work, for example, may need to travel to several interviews before receiving any income. Even modest fares can restrict the opportunities available to that person. Discounted passes or free travel for low-income residents could address this barrier directly. Similar support may help students and people attending regular medical appointments. These benefits justify public funding, particularly when the assistance reaches people whose choices are otherwise limited.\n\nHowever, fares are only one reason people avoid buses or trains. A free service that runs infrequently or fails to arrive on time may still be unsuitable for someone who must reach work at a fixed hour. If abolishing fares reduces the money available for maintenance and additional services, passengers could gain financially while losing a useful transport option. In a city with limited resources, improving reliability and providing accessible stops may therefore bring greater practical benefits than subsidising passengers who can already afford to pay.\n\nThe appropriate policy should also reflect local conditions. A small network with spare capacity faces different pressures from an overcrowded system that needs major investment. Governments should compare these needs rather than assume that one fare policy suits every place.\n\nIn conclusion, affordable travel is an important public goal, but universal free transport is not always the best route to it. I would prioritise targeted support alongside dependable, well-funded services, so that lower costs translate into journeys people can actually make.",
+    "source": "本站原创 IELTS 风格教学题目，不是考试回忆或官方真题。",
+    "review": "教学思路与示例，未考官评分。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-12",
+    "task": 2,
+    "type": "讨论双方并表态",
+    "title": "大学的任务",
+    "prompt": "Some people think universities should prepare students for employment, while others believe they should develop knowledge for its own sake. Discuss both views and give your own opinion. Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "双方都讨论并表达自己的观点，避免二选一假对立。",
+    "ideas": [
+      "就业能力回应学费与社会需求。",
+      "基础研究与批判思考价值并非立即可变现。",
+      "可选择结合专业实践与广泛探究。"
+    ],
+    "outline": [
+      "引言：二者可兼顾。",
+      "主体一：就业观点及具体机制。",
+      "主体二：求知观点与长期价值。",
+      "结论：课程层面的组合。"
+    ],
+    "expressions": [
+      "transferable skills",
+      "intellectual curiosity",
+      "long-term public value"
+    ],
+    "errors": [
+      "逐项回应题目，不将背过的相近话题作文直接套用。",
+      "例子用于解释机制，不编造机构、调查或精确统计。",
+      "词汇以准确自然为先；论点后写清 why/how。"
+    ],
+    "sample": null,
+    "source": "本站原创 IELTS 风格教学题目，不是考试回忆或官方真题。",
+    "review": "教学思路与示例，未考官评分。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-13",
+    "task": 2,
+    "type": "利弊并判断",
+    "title": "远程办公",
+    "prompt": "More employees now work from home rather than travelling to an office. Do the advantages of this development outweigh the disadvantages? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "必须称量而非只列利弊；可限定适合岗位。",
+    "ideas": [
+      "节省通勤，改善时间自主。",
+      "新员工学习和团队协作可能受损。",
+      "有条件支持：混合安排、明确联络与边界。"
+    ],
+    "outline": [
+      "引言：适合岗位总体利大。",
+      "主体一：时间、地域机会及例子。",
+      "主体二：协作损失及何种安排可减轻。",
+      "结尾：比较后结论。"
+    ],
+    "expressions": [
+      "reduce commuting time",
+      "maintain clear boundaries",
+      "structured mentoring"
+    ],
+    "errors": [
+      "逐项回应题目，不将背过的相近话题作文直接套用。",
+      "例子用于解释机制，不编造机构、调查或精确统计。",
+      "词汇以准确自然为先；论点后写清 why/how。"
+    ],
+    "sample": "The growth of home working has changed how many employees organise their day. In my view, its advantages generally outweigh its disadvantages for jobs that can be performed remotely, provided that employers make deliberate arrangements for collaboration and support.\n\nThe clearest benefit is the removal of the daily commute. An employee who previously spent a long time travelling can use some of that time for rest, family responsibilities or focused work. Remote arrangements may also widen access to employment. Someone who cannot move to an expensive city, for instance, may still be able to contribute to an organisation based there. These gains concern both personal well-being and the range of people an employer can recruit. They are especially valuable when performance can be judged by completed work rather than physical presence.\n\nThe main disadvantages involve communication and learning. A new colleague may find it harder to ask small questions when every conversation requires a scheduled call. Informal exchanges can also help teams notice problems before they become serious. Furthermore, working in the same place as one lives can make it difficult to stop at the end of the day. These are substantial concerns, and simply supplying a laptop does little to solve them.\n\nNevertheless, the problems are not equally severe in every remote arrangement. Regular mentoring, agreed hours of availability and occasional meetings with a clear purpose can preserve support while retaining much of the flexibility. Such measures cannot turn every occupation into a remote job, but they can improve the experience of employees whose duties allow it.\n\nOverall, I consider the savings in travel time and the broader access to suitable jobs more important than the disadvantages in this context. The benefits are strongest when remote work is treated as a considered organisational choice, with attention to how people learn and cooperate.",
+    "source": "本站原创 IELTS 风格教学题目，不是考试回忆或官方真题。",
+    "review": "教学思路与示例，未考官评分。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-14",
+    "task": 2,
+    "type": "问题与解决",
+    "title": "城市噪音",
+    "prompt": "Noise is a growing concern in many cities. What problems can it cause, and what measures could reduce these problems? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "问的是后果与措施，不是仅讲原因；措施要对应具体问题。",
+    "ideas": [
+      "睡眠与专注受影响，学校住房附近尤甚。",
+      "交通噪声用速度管理、维护和隔音规划。",
+      "施工用时段规则与可执行投诉机制。"
+    ],
+    "outline": [
+      "引言：影响与对应措施。",
+      "主体一：休息/学习的机制。",
+      "主体二：交通、施工两类措施。",
+      "结论：执行与规划并行。"
+    ],
+    "expressions": [
+      "disrupt sleep",
+      "enforce time restrictions",
+      "reduce exposure"
+    ],
+    "errors": [
+      "逐项回应题目，不将背过的相近话题作文直接套用。",
+      "例子用于解释机制，不编造机构、调查或精确统计。",
+      "词汇以准确自然为先；论点后写清 why/how。"
+    ],
+    "sample": null,
+    "source": "本站原创 IELTS 风格教学题目，不是考试回忆或官方真题。",
+    "review": "教学思路与示例，未考官评分。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-15",
+    "task": 2,
+    "type": "双问题",
+    "title": "技能更新",
+    "prompt": "Many adults return to education while working. Why do they do this, and how can institutions support them? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "原因和支持都要答，不只讨论终身学习好处。",
+    "ideas": [
+      "技术和岗位变化带来新技能需求。",
+      "转行或个人兴趣也驱动学习。",
+      "晚间/模块化课程、认可既有经历，降低时间负担。"
+    ],
+    "outline": [
+      "引言：原因多元、安排需灵活。",
+      "主体一：工作变化与个人目标。",
+      "主体二：时间、课程和支持设计。",
+      "结尾：对应需求。"
+    ],
+    "expressions": [
+      "update professional skills",
+      "flexible scheduling",
+      "recognise prior experience"
+    ],
+    "errors": [
+      "逐项回应题目，不将背过的相近话题作文直接套用。",
+      "例子用于解释机制，不编造机构、调查或精确统计。",
+      "词汇以准确自然为先；论点后写清 why/how。"
+    ],
+    "sample": null,
+    "source": "本站原创 IELTS 风格教学题目，不是考试回忆或官方真题。",
+    "review": "教学思路与示例，未考官评分。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-16",
+    "task": 2,
+    "type": "同意与否",
+    "title": "科技与教师",
+    "prompt": "Technology will eventually replace teachers in schools. To what extent do you agree or disagree? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "eventually 与 replace 是绝对程度，回应替代范围而非泛谈科技。",
+    "ideas": [
+      "技术辅助练习和反馈。",
+      "教师识别误解、激励与课堂社交。",
+      "主张角色转变而非全替代。"
+    ],
+    "outline": [
+      "引言：不同意完全替代。",
+      "主体一：能自动化的任务。",
+      "主体二：互动判断与支持。",
+      "结论：辅助并释放教师时间。"
+    ],
+    "expressions": [
+      "identify misconceptions",
+      "adapt instruction",
+      "complement classroom teaching"
+    ],
+    "errors": [
+      "逐项回应题目，不将背过的相近话题作文直接套用。",
+      "例子用于解释机制，不编造机构、调查或精确统计。",
+      "词汇以准确自然为先；论点后写清 why/how。"
+    ],
+    "sample": null,
+    "source": "本站原创 IELTS 风格教学题目，不是考试回忆或官方真题。",
+    "review": "教学思路与示例，未考官评分。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-17",
+    "task": 2,
+    "type": "讨论双方并表态",
+    "title": "文化场馆经费",
+    "prompt": "Some people believe museums should be funded entirely by the government, while others think they should charge visitors. Discuss both views and give your own opinion. Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "entirely 与 charge 的取舍，提出混合模式要解释。",
+    "ideas": [
+      "财政保障公共可及性和教育价值。",
+      "门票补充维护收入，但排除低收入群体。",
+      "主张基础免费、特展收费或减免。"
+    ],
+    "outline": [
+      "引言：两方与混合立场。",
+      "主体一：政府资助公共价值。",
+      "主体二：收费可持续与门槛。",
+      "结尾：基本服务和特展分开。"
+    ],
+    "expressions": [
+      "preserve cultural heritage",
+      "secure stable funding",
+      "remove financial barriers"
+    ],
+    "errors": [
+      "逐项回应题目，不将背过的相近话题作文直接套用。",
+      "例子用于解释机制，不编造机构、调查或精确统计。",
+      "词汇以准确自然为先；论点后写清 why/how。"
+    ],
+    "sample": null,
+    "source": "本站原创 IELTS 风格教学题目，不是考试回忆或官方真题。",
+    "review": "教学思路与示例，未考官评分。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-18",
+    "task": 2,
+    "type": "利弊并判断",
+    "title": "食品跨境贸易",
+    "prompt": "Food is increasingly transported over long distances before it is sold. Do the advantages outweigh the disadvantages? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "远距供应可得性与排放/依赖风险；不能单看公里数。",
+    "ideas": [
+      "季节补充、品类和生产者市场。",
+      "冷链、运输排放和供应中断。",
+      "按生产方式和运输方式衡量，避免声称本地永远低碳。"
+    ],
+    "outline": [
+      "引言：有益但需权衡。",
+      "主体一：获取与贸易机会。",
+      "主体二：环境与韧性风险。",
+      "结论：明确判断并限定条件。"
+    ],
+    "expressions": [
+      "seasonal availability",
+      "supply-chain resilience",
+      "consider the whole life cycle"
+    ],
+    "errors": [
+      "逐项回应题目，不将背过的相近话题作文直接套用。",
+      "例子用于解释机制，不编造机构、调查或精确统计。",
+      "词汇以准确自然为先；论点后写清 why/how。"
+    ],
+    "sample": null,
+    "source": "本站原创 IELTS 风格教学题目，不是考试回忆或官方真题。",
+    "review": "教学思路与示例，未考官评分。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-19",
+    "task": 2,
+    "type": "原因与解决",
+    "title": "私人汽车依赖",
+    "prompt": "In many places, people rely heavily on private cars. What are the reasons for this, and what could reduce this reliance? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "原因与对策匹配，交通可达性比道德说教更有解释力。",
+    "ideas": [
+      "低密度区域公交频次差。",
+      "工作、照护形成复杂行程。",
+      "可靠公交与步行接驳、土地使用规划，分阶段实施。"
+    ],
+    "outline": [
+      "引言：供给与空间结构。",
+      "主体一：日常可行性约束。",
+      "主体二：对应可靠性和连接措施。",
+      "结论：先提供可用替代。"
+    ],
+    "expressions": [
+      "practical alternatives",
+      "improve connections",
+      "coordinate land use and transport"
+    ],
+    "errors": [
+      "逐项回应题目，不将背过的相近话题作文直接套用。",
+      "例子用于解释机制，不编造机构、调查或精确统计。",
+      "词汇以准确自然为先；论点后写清 why/how。"
+    ],
+    "sample": null,
+    "source": "本站原创 IELTS 风格教学题目，不是考试回忆或官方真题。",
+    "review": "教学思路与示例，未考官评分。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "writing-20",
+    "task": 2,
+    "type": "双问题",
+    "title": "网络健康信息",
+    "prompt": "People increasingly look for health information online. What benefits can this bring, and what risks should people be aware of? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "收益和风险都回应；不写个人医疗建议。",
+    "ideas": [
+      "能准备就诊问题和了解公共卫生。",
+      "误导内容、商业偏见及隐私。",
+      "核对可靠机构、不以搜索替代诊断。"
+    ],
+    "outline": [
+      "引言：提高可及性但有风险。",
+      "主体一：知情与准备。",
+      "主体二：误导与隐私机制。",
+      "结论：专业来源及恰当边界。"
+    ],
+    "expressions": [
+      "evaluate the reliability of a source",
+      "make an informed decision",
+      "protect sensitive information"
+    ],
+    "errors": [
+      "逐项回应题目，不将背过的相近话题作文直接套用。",
+      "例子用于解释机制，不编造机构、调查或精确统计。",
+      "词汇以准确自然为先；论点后写清 why/how。"
+    ],
+    "sample": null,
+    "source": "本站原创 IELTS 风格教学题目，不是考试回忆或官方真题。",
+    "review": "教学思路与示例，未考官评分。",
+    "updated": "2026-11-13"
+  },
+  {
+    "id": "x-writing-21",
+    "task": 1,
+    "type": "折线图",
+    "title": "三种能源的发电占比",
+    "prompt": "The chart shows the percentage of electricity generated from three sources in the fictional region of Vale from 2000 to 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "chart": {
+      "kind": "line",
+      "labels": [
+        "2000",
+        "2005",
+        "2010",
+        "2015",
+        "2020"
+      ],
+      "series": [
+        {
+          "name": "Coal",
+          "values": [
+            60,
+            55,
+            45,
+            35,
+            25
+          ]
+        },
+        {
+          "name": "Gas",
+          "values": [
+            30,
+            32,
+            35,
+            33,
+            30
+          ]
+        },
+        {
+          "name": "Renewables",
+          "values": [
+            10,
+            13,
+            20,
+            32,
+            45
+          ]
+        }
+      ],
+      "unit": "%"
+    },
+    "visual": null,
+    "analysis": "先识别量纲、对象与时间，再将主要特征分组。份额不是绝对发电量；总量未给出。",
+    "ideas": [
+      "可再生能源持续增长并超过煤炭。",
+      "煤炭份额下滑，天然气先小幅上升再回到起点。",
+      "份额不是绝对发电量；总量未给出。"
+    ],
+    "outline": [
+      "引言：准确改写对象、时间和指标。",
+      "Overview：只写最重要的整体特征。",
+      "主体一：按有意义的比较组织一组证据。",
+      "主体二：补充另一组，并检查单位与数值。"
+    ],
+    "expressions": [
+      "the share of electricity generated from",
+      "a higher proportion of respondents",
+      "in contrast to the overall pattern"
+    ],
+    "errors": [
+      "描述与图表数据必须一致。",
+      "不要补写图表没有提供的动机、原因或因果关系。"
+    ],
+    "source": "本站 AI 辅助原创，虚构图表数据。",
+    "review": "教学题目，未真人考官校准。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-22",
+    "task": 1,
+    "type": "柱状图",
+    "title": "成人学习的主要障碍",
+    "prompt": "The chart compares the percentage of surveyed adults reporting four barriers to further study in two fictional regions in 2025. Respondents could select multiple barriers. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "chart": {
+      "kind": "bar",
+      "labels": [
+        "Cost",
+        "Time",
+        "Travel",
+        "Confidence"
+      ],
+      "series": [
+        {
+          "name": "East",
+          "values": [
+            48,
+            65,
+            24,
+            31
+          ]
+        },
+        {
+          "name": "West",
+          "values": [
+            55,
+            60,
+            38,
+            28
+          ]
+        }
+      ],
+      "unit": "%"
+    },
+    "visual": null,
+    "analysis": "先识别量纲、对象与时间，再将主要特征分组。允许多选，不能要求每列合计 100%。",
+    "ideas": [
+      "时间在两地都是最普遍障碍。",
+      "西部费用与交通障碍比例更高。",
+      "允许多选，不能要求每列合计 100%。"
+    ],
+    "outline": [
+      "引言：准确改写对象、时间和指标。",
+      "Overview：只写最重要的整体特征。",
+      "主体一：按有意义的比较组织一组证据。",
+      "主体二：补充另一组，并检查单位与数值。"
+    ],
+    "expressions": [
+      "accounted for",
+      "the largest difference was between",
+      "over the period shown"
+    ],
+    "errors": [
+      "描述与图表数据必须一致。",
+      "不要补写图表没有提供的动机、原因或因果关系。"
+    ],
+    "source": "本站 AI 辅助原创，虚构图表数据。",
+    "review": "教学题目，未真人考官校准。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-23",
+    "task": 1,
+    "type": "表格",
+    "title": "不同住房的平均能耗",
+    "prompt": "The table gives average annual household energy use for three housing types in a fictional city in 2010 and 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "chart": {
+      "kind": "table",
+      "labels": [
+        "Detached",
+        "Terraced",
+        "Flat"
+      ],
+      "series": [
+        {
+          "name": "2010",
+          "values": [
+            21000,
+            16000,
+            11000
+          ]
+        },
+        {
+          "name": "2025",
+          "values": [
+            16500,
+            13000,
+            9500
+          ]
+        }
+      ],
+      "unit": "kWh"
+    },
+    "visual": null,
+    "analysis": "先识别量纲、对象与时间，再将主要特征分组。不能从能耗推断居民收入或生活质量。",
+    "ideas": [
+      "三类住房平均能耗均下降。",
+      "独立屋始终最高且绝对降幅最大。",
+      "不能从能耗推断居民收入或生活质量。"
+    ],
+    "outline": [
+      "引言：准确改写对象、时间和指标。",
+      "Overview：只写最重要的整体特征。",
+      "主体一：按有意义的比较组织一组证据。",
+      "主体二：补充另一组，并检查单位与数值。"
+    ],
+    "expressions": [
+      "accounted for",
+      "the largest difference was between",
+      "over the period shown"
+    ],
+    "errors": [
+      "描述与图表数据必须一致。",
+      "不要补写图表没有提供的动机、原因或因果关系。"
+    ],
+    "source": "本站 AI 辅助原创，虚构图表数据。",
+    "review": "教学题目，未真人考官校准。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-24",
+    "task": 1,
+    "type": "饼图",
+    "title": "大学研究经费来源",
+    "prompt": "The figures show the sources of research funding at a fictional university in 2015 and 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "chart": {
+      "kind": "pie",
+      "labels": [
+        "Government",
+        "Industry",
+        "Charities",
+        "Other"
+      ],
+      "series": [
+        {
+          "name": "2015",
+          "values": [
+            55,
+            20,
+            15,
+            10
+          ]
+        },
+        {
+          "name": "2025",
+          "values": [
+            40,
+            35,
+            20,
+            5
+          ]
+        }
+      ],
+      "unit": "%"
+    },
+    "visual": null,
+    "analysis": "先识别量纲、对象与时间，再将主要特征分组。不知总经费，不能说政府绝对拨款减少。",
+    "ideas": [
+      "政府份额仍最大但下降。",
+      "行业与慈善来源增长，其他来源减半。",
+      "不知总经费，不能说政府绝对拨款减少。"
+    ],
+    "outline": [
+      "引言：准确改写对象、时间和指标。",
+      "Overview：只写最重要的整体特征。",
+      "主体一：按有意义的比较组织一组证据。",
+      "主体二：补充另一组，并检查单位与数值。"
+    ],
+    "expressions": [
+      "accounted for",
+      "the largest difference was between",
+      "over the period shown"
+    ],
+    "errors": [
+      "描述与图表数据必须一致。",
+      "不要补写图表没有提供的动机、原因或因果关系。"
+    ],
+    "source": "本站 AI 辅助原创，虚构图表数据。",
+    "review": "教学题目，未真人考官校准。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-25",
+    "task": 1,
+    "type": "组合图",
+    "title": "申请人数与录取率",
+    "prompt": "The figures compare the number of applications and the acceptance rate for a fictional college between 2020 and 2024. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "chart": {
+      "kind": "combo",
+      "labels": [
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "series": [
+        {
+          "name": "Applications",
+          "values": [
+            800,
+            900,
+            1100,
+            1200,
+            1400
+          ]
+        },
+        {
+          "name": "Acceptance rate (%)",
+          "values": [
+            70,
+            68,
+            60,
+            58,
+            55
+          ]
+        }
+      ],
+      "unit": "see series"
+    },
+    "visual": null,
+    "analysis": "先识别量纲、对象与时间，再将主要特征分组。不能只凭录取率推断实际录取人数减少。",
+    "ideas": [
+      "申请持续增加，录取率下降。",
+      "两个量纲须分开比较。",
+      "不能只凭录取率推断实际录取人数减少。"
+    ],
+    "outline": [
+      "引言：准确改写对象、时间和指标。",
+      "Overview：只写最重要的整体特征。",
+      "主体一：按有意义的比较组织一组证据。",
+      "主体二：补充另一组，并检查单位与数值。"
+    ],
+    "expressions": [
+      "accounted for",
+      "the largest difference was between",
+      "over the period shown"
+    ],
+    "errors": [
+      "描述与图表数据必须一致。",
+      "不要补写图表没有提供的动机、原因或因果关系。"
+    ],
+    "source": "本站 AI 辅助原创，虚构图表数据。",
+    "review": "教学题目，未真人考官校准。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-26",
+    "task": 1,
+    "type": "地图",
+    "title": "博物馆底层改造",
+    "prompt": "The plans show the ground floor of a fictional museum in 2000 and 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "chart": null,
+    "visual": "MAP:2000|North: Storage|West: Gallery|Centre: Hall|East: Tickets|South: Entrance;2025|North: Education room|West: Gallery|Centre: Seating|East: Tickets and shop|South: Entrance",
+    "analysis": "先识别量纲、对象与时间，再将主要特征分组。西侧展厅仍在，中央增加休息区。",
+    "ideas": [
+      "东北的储藏室改为教育室。",
+      "南侧售票处迁移，入口仍保留。",
+      "西侧展厅仍在，中央增加休息区。"
+    ],
+    "outline": [
+      "引言：准确改写对象、时间和指标。",
+      "Overview：只写最重要的整体特征。",
+      "主体一：按有意义的比较组织一组证据。",
+      "主体二：补充另一组，并检查单位与数值。"
+    ],
+    "expressions": [
+      "accounted for",
+      "the largest difference was between",
+      "over the period shown"
+    ],
+    "errors": [
+      "描述与图表数据必须一致。",
+      "不要补写图表没有提供的动机、原因或因果关系。"
+    ],
+    "source": "本站 AI 辅助原创，虚构图表数据。",
+    "review": "教学题目，未真人考官校准。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-27",
+    "task": 1,
+    "type": "流程图",
+    "title": "雨水收集与再利用",
+    "prompt": "The diagram shows a simplified system for collecting and reusing rainwater in a public building. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "chart": null,
+    "visual": "FLOW:Roof collection → Leaf screen → Filter → Storage tank → Toilets and irrigation → Planned overflow drain",
+    "analysis": "先识别量纲、对象与时间，再将主要特征分组。溢流进入指定排水系统。",
+    "ideas": [
+      "屋顶收集到过滤和储存，再分流使用。",
+      "清洁用途为冲厕和灌溉，图中未提供饮用。",
+      "溢流进入指定排水系统。"
+    ],
+    "outline": [
+      "引言：准确改写对象、时间和指标。",
+      "Overview：只写最重要的整体特征。",
+      "主体一：按有意义的比较组织一组证据。",
+      "主体二：补充另一组，并检查单位与数值。"
+    ],
+    "expressions": [
+      "accounted for",
+      "the largest difference was between",
+      "over the period shown"
+    ],
+    "errors": [
+      "描述与图表数据必须一致。",
+      "不要补写图表没有提供的动机、原因或因果关系。"
+    ],
+    "source": "本站 AI 辅助原创，虚构图表数据。",
+    "review": "教学题目，未真人考官校准。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-28",
+    "task": 1,
+    "type": "流程图",
+    "title": "图书数字化工作流",
+    "prompt": "The diagram shows a simplified workflow for digitising a library collection. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "chart": null,
+    "visual": "FLOW:Selection → Condition check → Scanning → Metadata entry → Quality review → Online release; originals retained",
+    "analysis": "先识别量纲、对象与时间，再将主要特征分组。原件继续保存，数字化不表示销毁。",
+    "ideas": [
+      "从选择和状况检查到扫描、复核、上线。",
+      "质量检查独立于扫描，不能省略。",
+      "原件继续保存，数字化不表示销毁。"
+    ],
+    "outline": [
+      "引言：准确改写对象、时间和指标。",
+      "Overview：只写最重要的整体特征。",
+      "主体一：按有意义的比较组织一组证据。",
+      "主体二：补充另一组，并检查单位与数值。"
+    ],
+    "expressions": [
+      "accounted for",
+      "the largest difference was between",
+      "over the period shown"
+    ],
+    "errors": [
+      "描述与图表数据必须一致。",
+      "不要补写图表没有提供的动机、原因或因果关系。"
+    ],
+    "source": "本站 AI 辅助原创，虚构图表数据。",
+    "review": "教学题目，未真人考官校准。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-29",
+    "task": 1,
+    "type": "折线图",
+    "title": "图书馆的两类访问量",
+    "prompt": "The chart shows monthly physical visits and online sessions at a fictional library during six months in 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "chart": {
+      "kind": "line",
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun"
+      ],
+      "series": [
+        {
+          "name": "Physical visits",
+          "values": [
+            8000,
+            8500,
+            9000,
+            8800,
+            9500,
+            10000
+          ]
+        },
+        {
+          "name": "Online sessions",
+          "values": [
+            12000,
+            13000,
+            16000,
+            18000,
+            22000,
+            25000
+          ]
+        }
+      ],
+      "unit": "visits / sessions"
+    },
+    "visual": null,
+    "analysis": "先识别量纲、对象与时间，再将主要特征分组。session 不等于去重人数，避免写 users。",
+    "ideas": [
+      "两类均整体增加，在线更快。",
+      "实体访问在四月短暂下降。",
+      "session 不等于去重人数，避免写 users。"
+    ],
+    "outline": [
+      "引言：准确改写对象、时间和指标。",
+      "Overview：只写最重要的整体特征。",
+      "主体一：按有意义的比较组织一组证据。",
+      "主体二：补充另一组，并检查单位与数值。"
+    ],
+    "expressions": [
+      "accounted for",
+      "the largest difference was between",
+      "over the period shown"
+    ],
+    "errors": [
+      "描述与图表数据必须一致。",
+      "不要补写图表没有提供的动机、原因或因果关系。"
+    ],
+    "source": "本站 AI 辅助原创，虚构图表数据。",
+    "review": "教学题目，未真人考官校准。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-30",
+    "task": 1,
+    "type": "柱状图",
+    "title": "四个年龄组的博物馆活动参与",
+    "prompt": "The chart compares participation in workshops and guided tours by age group at a fictional museum in 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+    "chart": {
+      "kind": "bar",
+      "labels": [
+        "18–29",
+        "30–44",
+        "45–59",
+        "60+"
+      ],
+      "series": [
+        {
+          "name": "Workshops",
+          "values": [
+            42,
+            35,
+            28,
+            25
+          ]
+        },
+        {
+          "name": "Tours",
+          "values": [
+            20,
+            30,
+            45,
+            55
+          ]
+        }
+      ],
+      "unit": "% of surveyed visitors"
+    },
+    "visual": null,
+    "analysis": "先识别量纲、对象与时间，再将主要特征分组。静态年龄比较不能写同一群体随时间变化。",
+    "ideas": [
+      "工作坊参与随年龄组增大而降低，导览相反。",
+      "45 岁以上导览比例高于工作坊。",
+      "静态年龄比较不能写同一群体随时间变化。"
+    ],
+    "outline": [
+      "引言：准确改写对象、时间和指标。",
+      "Overview：只写最重要的整体特征。",
+      "主体一：按有意义的比较组织一组证据。",
+      "主体二：补充另一组，并检查单位与数值。"
+    ],
+    "expressions": [
+      "accounted for",
+      "the largest difference was between",
+      "over the period shown"
+    ],
+    "errors": [
+      "描述与图表数据必须一致。",
+      "不要补写图表没有提供的动机、原因或因果关系。"
+    ],
+    "source": "本站 AI 辅助原创，虚构图表数据。",
+    "review": "教学题目，未真人考官校准。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-31",
+    "task": 2,
+    "type": "讨论双方并表态",
+    "title": "科学研究的主导者",
+    "prompt": "Some people think scientific research should be funded mainly by governments, while others believe private companies should take the leading role. Discuss both views and give your opinion. Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "逐项回应题目，明确立场或比较判断；不要只写该话题的一般好处。",
+    "ideas": [
+      "公共资助支持长期、基础与低商业回报研究。",
+      "企业可提供资源与应用需求，但利益冲突需透明。",
+      "可主张分工结合与公开监督，不必假设某方完全无偏。"
+    ],
+    "outline": [
+      "引言：改写具体问题并说明回答方向。",
+      "主体一：提出一个中心观点，解释机制，再给适度例子。",
+      "主体二：回应另一要求或限制，和立场形成联系。",
+      "结论：回到题目作明确判断，不新增论点。"
+    ],
+    "expressions": [
+      "make information available",
+      "address practical barriers",
+      "recognise the limits of the evidence"
+    ],
+    "errors": [
+      "不能用编造的调查数据替代论证。",
+      "讨论双方题须充分呈现两方，利弊题须作权衡。"
+    ],
+    "source": "本站 AI 辅助原创 IELTS 风格任务，非考试回忆。",
+    "review": "教学思路，未真人考官评分。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-32",
+    "task": 2,
+    "type": "同意与否",
+    "title": "维修权",
+    "prompt": "Manufacturers should be required to make spare parts and repair instructions available to independent repairers. To what extent do you agree or disagree? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "逐项回应题目，明确立场或比较判断；不要只写该话题的一般好处。",
+    "ideas": [
+      "可维修性降低更换门槛与材料浪费。",
+      "安全与技术复杂性需资质、准确说明来管理。",
+      "区分提供信息与要求所有人自行维修。"
+    ],
+    "outline": [
+      "引言：改写具体问题并说明回答方向。",
+      "主体一：提出一个中心观点，解释机制，再给适度例子。",
+      "主体二：回应另一要求或限制，和立场形成联系。",
+      "结论：回到题目作明确判断，不新增论点。"
+    ],
+    "expressions": [
+      "make information available",
+      "address practical barriers",
+      "recognise the limits of the evidence"
+    ],
+    "errors": [
+      "不能用编造的调查数据替代论证。",
+      "讨论双方题须充分呈现两方，利弊题须作权衡。"
+    ],
+    "source": "本站 AI 辅助原创 IELTS 风格任务，非考试回忆。",
+    "review": "教学思路，未真人考官评分。",
+    "updated": "2026-11-16",
+    "sample": "Products often become unusable because a small part fails, even when most of the device still works. I largely agree that manufacturers should provide spare parts and repair instructions to independent repairers, although reasonable safeguards are needed for work that presents serious risks.\n\nThe main benefit is that this requirement would give owners a practical alternative to replacement. An independent workshop may have the skills to diagnose a fault but be unable to obtain the component needed to fix it. If the only available option is a large and expensive assembly, repairing the product may make little financial sense. Access to appropriately priced parts and accurate instructions could remove this obstacle, allowing functioning materials to remain in use. It could also support local businesses that provide repair services.\n\nThere is a further argument about choice. Purchasing a product should not leave an owner dependent on one authorised provider for every future problem. Independent repairers can offer different locations, prices and waiting times. This matters particularly where the manufacturer's own service network is difficult to reach. More options would not guarantee a successful repair in every case, but they would make it easier for owners to compare realistic alternatives.\n\nSafety concerns nevertheless deserve attention. Some electrical components require specialist training, and inaccurate instructions could expose repairers or users to harm. Manufacturers should therefore be allowed to specify necessary qualifications for high-risk tasks, while regulators ensure that such conditions are proportionate. Safety should guide how access is provided rather than serve as a blanket reason to withhold all information.\n\nOverall, I support a requirement to make repair possible through the independent sector. The policy should combine access to parts and reliable documentation with appropriate standards, so that consumer choice and safe practice reinforce each other."
+  },
+  {
+    "id": "x-writing-33",
+    "task": 2,
+    "type": "双问题",
+    "title": "信息与信任",
+    "prompt": "People now have access to more information than ever before. Why can it still be difficult to make informed decisions, and how can this problem be addressed? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "逐项回应题目，明确立场或比较判断；不要只写该话题的一般好处。",
+    "ideas": [
+      "信息数量不等于证据质量，来源与利益关系不清。",
+      "专业知识和时间有限，过载使筛选更难。",
+      "透明来源、可信机构导读与核查教育相配合。"
+    ],
+    "outline": [
+      "引言：改写具体问题并说明回答方向。",
+      "主体一：提出一个中心观点，解释机制，再给适度例子。",
+      "主体二：回应另一要求或限制，和立场形成联系。",
+      "结论：回到题目作明确判断，不新增论点。"
+    ],
+    "expressions": [
+      "make information available",
+      "address practical barriers",
+      "recognise the limits of the evidence"
+    ],
+    "errors": [
+      "不能用编造的调查数据替代论证。",
+      "讨论双方题须充分呈现两方，利弊题须作权衡。"
+    ],
+    "source": "本站 AI 辅助原创 IELTS 风格任务，非考试回忆。",
+    "review": "教学思路，未真人考官评分。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-34",
+    "task": 2,
+    "type": "原因与解决",
+    "title": "成年人的阅读时间",
+    "prompt": "In many places, adults spend little time reading long texts. What are the reasons for this, and what measures could encourage sustained reading? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "逐项回应题目，明确立场或比较判断；不要只写该话题的一般好处。",
+    "ideas": [
+      "碎片化时间、照护与工作负担是现实限制。",
+      "便利的短内容也改变注意习惯。",
+      "可达图书馆、读书小组与可执行的小目标，而非责备个人。"
+    ],
+    "outline": [
+      "引言：改写具体问题并说明回答方向。",
+      "主体一：提出一个中心观点，解释机制，再给适度例子。",
+      "主体二：回应另一要求或限制，和立场形成联系。",
+      "结论：回到题目作明确判断，不新增论点。"
+    ],
+    "expressions": [
+      "make information available",
+      "address practical barriers",
+      "recognise the limits of the evidence"
+    ],
+    "errors": [
+      "不能用编造的调查数据替代论证。",
+      "讨论双方题须充分呈现两方，利弊题须作权衡。"
+    ],
+    "source": "本站 AI 辅助原创 IELTS 风格任务，非考试回忆。",
+    "review": "教学思路，未真人考官评分。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-35",
+    "task": 2,
+    "type": "利弊并判断",
+    "title": "城市游客税",
+    "prompt": "Some cities charge visitors a tax to help fund local services. Do the advantages of this policy outweigh the disadvantages? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "逐项回应题目，明确立场或比较判断；不要只写该话题的一般好处。",
+    "ideas": [
+      "游客带来服务与公共空间维护需求。",
+      "税可筹资，但价格、征收成本及小企业影响需考虑。",
+      "明确税款用途与适度金额，比笼统判断旅游好坏更相关。"
+    ],
+    "outline": [
+      "引言：改写具体问题并说明回答方向。",
+      "主体一：提出一个中心观点，解释机制，再给适度例子。",
+      "主体二：回应另一要求或限制，和立场形成联系。",
+      "结论：回到题目作明确判断，不新增论点。"
+    ],
+    "expressions": [
+      "make information available",
+      "address practical barriers",
+      "recognise the limits of the evidence"
+    ],
+    "errors": [
+      "不能用编造的调查数据替代论证。",
+      "讨论双方题须充分呈现两方，利弊题须作权衡。"
+    ],
+    "source": "本站 AI 辅助原创 IELTS 风格任务，非考试回忆。",
+    "review": "教学思路，未真人考官评分。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-36",
+    "task": 2,
+    "type": "同意与否",
+    "title": "学生参与决策",
+    "prompt": "Schools should give students a greater role in decisions about their learning environment. To what extent do you agree or disagree? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "逐项回应题目，明确立场或比较判断；不要只写该话题的一般好处。",
+    "ideas": [
+      "学生可揭示使用体验与隐蔽障碍。",
+      "教学、安全、预算责任仍需专业人员承担。",
+      "支持有边界参与，并解释哪些议题可以改变。"
+    ],
+    "outline": [
+      "引言：改写具体问题并说明回答方向。",
+      "主体一：提出一个中心观点，解释机制，再给适度例子。",
+      "主体二：回应另一要求或限制，和立场形成联系。",
+      "结论：回到题目作明确判断，不新增论点。"
+    ],
+    "expressions": [
+      "make information available",
+      "address practical barriers",
+      "recognise the limits of the evidence"
+    ],
+    "errors": [
+      "不能用编造的调查数据替代论证。",
+      "讨论双方题须充分呈现两方，利弊题须作权衡。"
+    ],
+    "source": "本站 AI 辅助原创 IELTS 风格任务，非考试回忆。",
+    "review": "教学思路，未真人考官评分。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-37",
+    "task": 2,
+    "type": "讨论双方并表态",
+    "title": "保护历史建筑",
+    "prompt": "Some people think all historic buildings should be preserved, while others believe some should be replaced to meet present needs. Discuss both views and give your opinion. Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "逐项回应题目，明确立场或比较判断；不要只写该话题的一般好处。",
+    "ideas": [
+      "文化记忆和不可逆价值支持保护。",
+      "维护成本、无障碍和住房需求也须回应。",
+      "区分代表性价值与所有旧建筑，考虑适应性再利用。"
+    ],
+    "outline": [
+      "引言：改写具体问题并说明回答方向。",
+      "主体一：提出一个中心观点，解释机制，再给适度例子。",
+      "主体二：回应另一要求或限制，和立场形成联系。",
+      "结论：回到题目作明确判断，不新增论点。"
+    ],
+    "expressions": [
+      "make information available",
+      "address practical barriers",
+      "recognise the limits of the evidence"
+    ],
+    "errors": [
+      "不能用编造的调查数据替代论证。",
+      "讨论双方题须充分呈现两方，利弊题须作权衡。"
+    ],
+    "source": "本站 AI 辅助原创 IELTS 风格任务，非考试回忆。",
+    "review": "教学思路，未真人考官评分。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-38",
+    "task": 2,
+    "type": "双问题",
+    "title": "学校的户外学习",
+    "prompt": "Some schools are increasing the amount of learning that takes place outdoors. What benefits can this bring, and what challenges need to be considered? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "逐项回应题目，明确立场或比较判断；不要只写该话题的一般好处。",
+    "ideas": [
+      "直接观察支持经验与概念联系。",
+      "天气、交通、安全与无障碍有实际成本。",
+      "不要将户外等同全部科目都适合或必然提高成绩。"
+    ],
+    "outline": [
+      "引言：改写具体问题并说明回答方向。",
+      "主体一：提出一个中心观点，解释机制，再给适度例子。",
+      "主体二：回应另一要求或限制，和立场形成联系。",
+      "结论：回到题目作明确判断，不新增论点。"
+    ],
+    "expressions": [
+      "make information available",
+      "address practical barriers",
+      "recognise the limits of the evidence"
+    ],
+    "errors": [
+      "不能用编造的调查数据替代论证。",
+      "讨论双方题须充分呈现两方，利弊题须作权衡。"
+    ],
+    "source": "本站 AI 辅助原创 IELTS 风格任务，非考试回忆。",
+    "review": "教学思路，未真人考官评分。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-39",
+    "task": 2,
+    "type": "问题与解决",
+    "title": "数字服务的排斥",
+    "prompt": "More essential services are moving online. What difficulties can this create, and how can providers reduce them? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "逐项回应题目，明确立场或比较判断；不要只写该话题的一般好处。",
+    "ideas": [
+      "没有设备、网络、技能或无障碍支持者受影响。",
+      "复杂认证和界面可能阻止完成必要任务。",
+      "保留辅助渠道、支持人员和易用设计，不只发更多教程。"
+    ],
+    "outline": [
+      "引言：改写具体问题并说明回答方向。",
+      "主体一：提出一个中心观点，解释机制，再给适度例子。",
+      "主体二：回应另一要求或限制，和立场形成联系。",
+      "结论：回到题目作明确判断，不新增论点。"
+    ],
+    "expressions": [
+      "make information available",
+      "address practical barriers",
+      "recognise the limits of the evidence"
+    ],
+    "errors": [
+      "不能用编造的调查数据替代论证。",
+      "讨论双方题须充分呈现两方，利弊题须作权衡。"
+    ],
+    "source": "本站 AI 辅助原创 IELTS 风格任务，非考试回忆。",
+    "review": "教学思路，未真人考官评分。",
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "x-writing-40",
+    "task": 2,
+    "type": "利弊并判断",
+    "title": "社区科学",
+    "prompt": "Members of the public are increasingly helping researchers collect scientific data. Do the advantages outweigh the disadvantages? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
+    "analysis": "逐项回应题目，明确立场或比较判断；不要只写该话题的一般好处。",
+    "ideas": [
+      "扩大时空覆盖并增加公众理解。",
+      "样本偏差、记录一致性与误差需要培训复核。",
+      "科学人员负责设计和验证，公众参与不能替代全部专业工作。"
+    ],
+    "outline": [
+      "引言：改写具体问题并说明回答方向。",
+      "主体一：提出一个中心观点，解释机制，再给适度例子。",
+      "主体二：回应另一要求或限制，和立场形成联系。",
+      "结论：回到题目作明确判断，不新增论点。"
+    ],
+    "expressions": [
+      "make information available",
+      "address practical barriers",
+      "recognise the limits of the evidence"
+    ],
+    "errors": [
+      "不能用编造的调查数据替代论证。",
+      "讨论双方题须充分呈现两方，利弊题须作权衡。"
+    ],
+    "source": "本站 AI 辅助原创 IELTS 风格任务，非考试回忆。",
+    "review": "教学思路，未真人考官评分。",
+    "updated": "2026-11-16"
+  }
+]

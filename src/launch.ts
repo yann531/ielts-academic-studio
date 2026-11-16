@@ -1,0 +1,1 @@
+export function takeLaunch(skill:string):{ref?:string;part?:string}|null{try{const value=JSON.parse(sessionStorage.getItem('studio-launch')??'null');if(value?.skill!==skill)return null;sessionStorage.removeItem('studio-launch');return value;}catch{return null;}}

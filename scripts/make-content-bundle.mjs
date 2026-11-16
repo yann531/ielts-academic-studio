@@ -1,0 +1,11 @@
+import {readFile,mkdir,writeFile,readdir,unlink} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const read=async n=>JSON.parse(await readFile(`src/data/${n}.json`,'utf8'));
+const bank={version:'1.1.0',updated:'2026-11-16',papers:await read('papers'),words:await read('vocab'),resources:await read('resources'),writing:await read('writing'),speaking:await read('speaking')};
+bank.updated=bank.papers.reduce((d,p)=>p.updated>d?p.updated:d,bank.updated);
+const raw=JSON.stringify(bank),sha256=createHash('sha256').update(raw).digest('hex'),file=`bank-${sha256.slice(0,16)}.json`;
+bank.version='1.1.0';
+await mkdir('public/content',{recursive:true});
+for(const f of await readdir('public/content'))if(/^bank-[a-f0-9]{16}\.json$/.test(f)&&f!==file)await unlink('public/content/'+f);
+await writeFile('public/content/'+file,raw);await writeFile('public/content/manifest.json',JSON.stringify({file,sha256,updated:bank.updated}));
+console.log('Content bundle:',file);

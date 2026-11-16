@@ -1,0 +1,602 @@
+[
+  {
+    "id": "speaking-1",
+    "title": "学习与技能",
+    "p1": [
+      "What are you studying at the moment?",
+      "Which part of your studies do you find most interesting?",
+      "Do you prefer studying alone or with others?"
+    ],
+    "p2": "Describe a skill you learned that you found useful.",
+    "p2points": [
+      "what the skill was",
+      "how you learned it",
+      "when you have used it",
+      "and explain why it is useful"
+    ],
+    "p3": [
+      "How have the skills needed for work changed?",
+      "Who should pay for adults to learn new skills?",
+      "Can every useful skill be assessed by an examination?"
+    ],
+    "ideas": [
+      "选真实的小技能，不必编传奇经历。",
+      "按场景→困难→练习→用途组织 2 分钟。"
+    ],
+    "phrases": [
+      "pick something up gradually",
+      "put it into practice"
+    ],
+    "source": "本站原创话题练习；非真实考试预测或官方题库。"
+  },
+  {
+    "id": "speaking-2",
+    "title": "居住与城市",
+    "p1": [
+      "What do you like about the area where you live?",
+      "Is it a convenient place for students?",
+      "Has the area changed recently?"
+    ],
+    "p2": "Describe a public place you enjoy spending time in.",
+    "p2points": [
+      "where it is",
+      "what it is like",
+      "what you do there",
+      "and explain why you enjoy it"
+    ],
+    "p3": [
+      "What makes a public space accessible?",
+      "Should cities prioritise cars or pedestrians?",
+      "How can residents influence changes in their neighbourhood?"
+    ],
+    "ideas": [
+      "描述一处可具体回忆的空间，用一次经历支撑感受。",
+      "P3 从个人偏好转向不同群体的需要。"
+    ],
+    "phrases": [
+      "within walking distance",
+      "a sense of community"
+    ],
+    "source": "本站原创话题练习；非真实考试预测或官方题库。"
+  },
+  {
+    "id": "speaking-3",
+    "title": "技术与沟通",
+    "p1": [
+      "Which device do you use most often?",
+      "Do you like learning to use new technology?",
+      "When do you prefer talking in person?"
+    ],
+    "p2": "Describe a time technology helped you solve a problem.",
+    "p2points": [
+      "what the problem was",
+      "which technology you used",
+      "how you used it",
+      "and explain how helpful it was"
+    ],
+    "p3": [
+      "Does technology always save time?",
+      "How can people judge information online?",
+      "Should schools restrict students’ use of devices?"
+    ],
+    "ideas": [
+      "不只列功能，讲问题与具体步骤。",
+      "讨论收益时补上使用条件。"
+    ],
+    "phrases": [
+      "figure out how it works",
+      "check the source"
+    ],
+    "source": "本站原创话题练习；非真实考试预测或官方题库。"
+  },
+  {
+    "id": "speaking-4",
+    "title": "环境与自然",
+    "p1": [
+      "Do you enjoy spending time outdoors?",
+      "Are there many trees near your home?",
+      "What do you do with things you no longer use?"
+    ],
+    "p2": "Describe a natural place you would like to visit again.",
+    "p2points": [
+      "where it is",
+      "when you went there",
+      "what you noticed",
+      "and explain why you would return"
+    ],
+    "p3": [
+      "Why do some people have little contact with nature?",
+      "Who is responsible for protecting local green spaces?",
+      "Can tourism help protect the environment?"
+    ],
+    "ideas": [
+      "用感官细节，不要背环保议论文。",
+      "旅游收益与承载能力都可讨论。"
+    ],
+    "phrases": [
+      "get away from the noise",
+      "look after the area"
+    ],
+    "source": "本站原创话题练习；非真实考试预测或官方题库。"
+  },
+  {
+    "id": "speaking-5",
+    "title": "健康与习惯",
+    "p1": [
+      "What do you do to relax?",
+      "Do you have a regular daily routine?",
+      "Is there a habit you would like to change?"
+    ],
+    "p2": "Describe a change you made to your daily routine.",
+    "p2points": [
+      "what you changed",
+      "why you changed it",
+      "whether it was difficult",
+      "and explain how you feel about it now"
+    ],
+    "p3": [
+      "Why is it difficult to maintain new habits?",
+      "How can workplaces support employee well-being?",
+      "Should public spaces encourage physical activity?"
+    ],
+    "ideas": [
+      "不需要声称医学效果，讲观察到的个人变化。",
+      "P3 分析时间、环境和支持。"
+    ],
+    "phrases": [
+      "stick to a routine",
+      "make a small adjustment"
+    ],
+    "source": "本站原创话题练习；非真实考试预测或官方题库。"
+  },
+  {
+    "id": "speaking-6",
+    "title": "工作与合作",
+    "p1": [
+      "Do you enjoy working with other people?",
+      "What makes a good teammate?",
+      "How do you organise a busy day?"
+    ],
+    "p2": "Describe a time you worked with others to achieve something.",
+    "p2points": [
+      "what you were trying to do",
+      "who was involved",
+      "what you contributed",
+      "and explain what you learned"
+    ],
+    "p3": [
+      "Why do some teams work better than others?",
+      "How should a leader deal with disagreement?",
+      "Is competition always useful at work?"
+    ],
+    "ideas": [
+      "用行动说明贡献，避免只说 I helped。",
+      "解释一次分歧如何解决。"
+    ],
+    "phrases": [
+      "share the workload",
+      "find common ground"
+    ],
+    "source": "本站原创话题练习；非真实考试预测或官方题库。"
+  },
+  {
+    "id": "speaking-7",
+    "title": "文化与阅读",
+    "p1": [
+      "What do you like reading?",
+      "Did you visit museums as a child?",
+      "Do you prefer reading on paper or on a screen?"
+    ],
+    "p2": "Describe a book or article that made you think.",
+    "p2points": [
+      "what it was about",
+      "how you found it",
+      "which idea interested you",
+      "and explain why it made you think"
+    ],
+    "p3": [
+      "What is the role of libraries today?",
+      "Should museums be free to visit?",
+      "How do people decide which information to trust?"
+    ],
+    "ideas": [
+      "可以选短文章，准确讲一个观点。",
+      "P3 比较知识获取与公共服务。"
+    ],
+    "phrases": [
+      "see something from a different angle",
+      "follow up on an idea"
+    ],
+    "source": "本站原创话题练习；非真实考试预测或官方题库。"
+  },
+  {
+    "id": "speaking-8",
+    "title": "交通与旅行",
+    "p1": [
+      "How do you usually get around?",
+      "What do you do during a journey?",
+      "Do you like planning trips in detail?"
+    ],
+    "p2": "Describe a journey that did not go as planned.",
+    "p2points": [
+      "where you were going",
+      "what happened",
+      "how you responded",
+      "and explain what you learned"
+    ],
+    "p3": [
+      "Why do people continue to use private cars?",
+      "What makes public transport reliable?",
+      "How can tourism affect residents?"
+    ],
+    "ideas": [
+      "事件链清楚：计划→变化→应对→感想。",
+      "无需虚构危险事件。"
+    ],
+    "phrases": [
+      "change plans at short notice",
+      "allow extra time"
+    ],
+    "source": "本站原创话题练习；非真实考试预测或官方题库。"
+  },
+  {
+    "id": "speaking-9",
+    "title": "消费与维修",
+    "p1": [
+      "Do you compare products before buying them?",
+      "Have you ever repaired something?",
+      "Do you prefer buying things online?"
+    ],
+    "p2": "Describe an object you have kept for a long time.",
+    "p2points": [
+      "what it is",
+      "how you got it",
+      "how you use it",
+      "and explain why you have kept it"
+    ],
+    "p3": [
+      "Why do people replace products that still work?",
+      "Should manufacturers provide repair information?",
+      "How does advertising influence purchasing decisions?"
+    ],
+    "ideas": [
+      "物品故事比价格清单更易展开。",
+      "讨论制度、信息和习惯。"
+    ],
+    "phrases": [
+      "still in good condition",
+      "get more use out of it"
+    ],
+    "source": "本站原创话题练习；非真实考试预测或官方题库。"
+  },
+  {
+    "id": "speaking-10",
+    "title": "时间与社区",
+    "p1": [
+      "How do you usually spend weekends?",
+      "Do you know many people in your neighbourhood?",
+      "Have you helped at a local event?"
+    ],
+    "p2": "Describe a time you helped someone.",
+    "p2points": [
+      "who the person was",
+      "what they needed",
+      "what you did",
+      "and explain how you felt afterwards"
+    ],
+    "p3": [
+      "What encourages people to volunteer?",
+      "Can small local projects make a difference?",
+      "Should students be required to do community work?"
+    ],
+    "ideas": [
+      "普通真实帮助就足够，解释对方需要与具体行动。",
+      "P3 区分自愿参与与强制安排。"
+    ],
+    "phrases": [
+      "give someone a hand",
+      "make time for something"
+    ],
+    "source": "本站原创话题练习；非真实考试预测或官方题库。"
+  },
+  {
+    "id": "x-speaking-11",
+    "title": "决策与建议",
+    "p1": [
+      "Do you usually make decisions quickly?",
+      "Who do you ask for advice?",
+      "Has your approach to decisions changed?"
+    ],
+    "p2": "Describe a useful piece of advice you received.",
+    "p2points": [
+      "who gave it",
+      "what the situation was",
+      "what you did afterwards",
+      "and explain why it was useful"
+    ],
+    "p3": [
+      "Why do people sometimes ignore good advice?",
+      "Should experts explain uncertainty when giving advice?",
+      "How can people compare conflicting recommendations?"
+    ],
+    "ideas": [
+      "按建议前后变化展开，区分别人建议与自己的选择。",
+      "P3 分析信任、利益和证据。"
+    ],
+    "phrases": [
+      "what I noticed was",
+      "looking back, I would say"
+    ],
+    "source": "本站 AI 辅助原创关联话题，不是当季预测题库。"
+  },
+  {
+    "id": "x-speaking-12",
+    "title": "耐心与坚持",
+    "p1": [
+      "Do you enjoy activities that take time to learn?",
+      "When do you find it hard to be patient?",
+      "Do you prefer short or long projects?"
+    ],
+    "p2": "Describe something you achieved after several attempts.",
+    "p2points": [
+      "what you tried to do",
+      "why it was difficult",
+      "how you changed your approach",
+      "and explain how you felt when you succeeded"
+    ],
+    "p3": [
+      "What helps people persist when progress is slow?",
+      "Is giving up always a bad decision?",
+      "How should schools respond to mistakes?"
+    ],
+    "ideas": [
+      "重点讲尝试之间如何调整，不只是 repeated practice。",
+      "P3 可区分坚持目标与坚持无效方法。"
+    ],
+    "phrases": [
+      "what I noticed was",
+      "looking back, I would say"
+    ],
+    "source": "本站 AI 辅助原创关联话题，不是当季预测题库。"
+  },
+  {
+    "id": "x-speaking-13",
+    "title": "新闻与信息",
+    "p1": [
+      "How do you usually find out what is happening?",
+      "Do you prefer reading or listening to news?",
+      "Do you discuss news with friends?"
+    ],
+    "p2": "Describe a time you checked whether a piece of information was true.",
+    "p2points": [
+      "what the information was",
+      "where you saw it",
+      "how you checked it",
+      "and explain what you learned"
+    ],
+    "p3": [
+      "Why does misleading information spread?",
+      "What responsibilities do platforms have?",
+      "Can everyone evaluate technical information independently?"
+    ],
+    "ideas": [
+      "具体讲检查步骤，别虚构调查机构。",
+      "把个人经验扩展到平台与教育层面。"
+    ],
+    "phrases": [
+      "what I noticed was",
+      "looking back, I would say"
+    ],
+    "source": "本站 AI 辅助原创关联话题，不是当季预测题库。"
+  },
+  {
+    "id": "x-speaking-14",
+    "title": "照顾与责任",
+    "p1": [
+      "Do you look after any plants?",
+      "What responsibilities do you have at home?",
+      "Did you have responsibilities as a child?"
+    ],
+    "p2": "Describe something living that you helped to look after.",
+    "p2points": [
+      "what it was",
+      "what it needed",
+      "what you did",
+      "and explain what you learned from the responsibility"
+    ],
+    "p3": [
+      "What can children learn from caring for plants or animals?",
+      "Who should look after shared green spaces?",
+      "Why do some projects lose support over time?"
+    ],
+    "ideas": [
+      "植物、宠物或花园均可，真实细节帮助展开。",
+      "P3 讨论长期维护和责任分配。"
+    ],
+    "phrases": [
+      "what I noticed was",
+      "looking back, I would say"
+    ],
+    "source": "本站 AI 辅助原创关联话题，不是当季预测题库。"
+  },
+  {
+    "id": "x-speaking-15",
+    "title": "建筑与空间",
+    "p1": [
+      "What kind of buildings do you notice?",
+      "Do you like quiet places?",
+      "Is there a building you often visit?"
+    ],
+    "p2": "Describe a building you think works well for its users.",
+    "p2points": [
+      "where it is",
+      "who uses it",
+      "which features you notice",
+      "and explain why it works well"
+    ],
+    "p3": [
+      "Should appearance or function matter more in design?",
+      "How can designers understand different users?",
+      "Should old buildings always be preserved?"
+    ],
+    "ideas": [
+      "用入口、采光、布局等具体特征解释功能。",
+      "P3 权衡可达性、文化价值和成本。"
+    ],
+    "phrases": [
+      "what I noticed was",
+      "looking back, I would say"
+    ],
+    "source": "本站 AI 辅助原创关联话题，不是当季预测题库。"
+  },
+  {
+    "id": "x-speaking-16",
+    "title": "组织与活动",
+    "p1": [
+      "Do you enjoy organising things?",
+      "How do you remember appointments?",
+      "Do you like attending group events?"
+    ],
+    "p2": "Describe an event you helped to organise.",
+    "p2points": [
+      "what the event was",
+      "who was involved",
+      "what your role was",
+      "and explain what you would do differently next time"
+    ],
+    "p3": [
+      "What makes an event accessible?",
+      "How can organisers deal with unexpected changes?",
+      "Should community events rely on volunteers?"
+    ],
+    "ideas": [
+      "安排→意外→处理→反思，比单纯报活动流程更完整。",
+      "P3 具体解释公平参与与资源限制。"
+    ],
+    "phrases": [
+      "what I noticed was",
+      "looking back, I would say"
+    ],
+    "source": "本站 AI 辅助原创关联话题，不是当季预测题库。"
+  },
+  {
+    "id": "x-speaking-17",
+    "title": "创意与制作",
+    "p1": [
+      "Do you enjoy making things?",
+      "What creative activities did you try as a child?",
+      "Do you like giving handmade gifts?"
+    ],
+    "p2": "Describe something you made yourself.",
+    "p2points": [
+      "what you made",
+      "why you made it",
+      "how you made it",
+      "and explain what you liked or disliked about the process"
+    ],
+    "p3": [
+      "Can creativity be taught?",
+      "Why do people value handmade objects?",
+      "How does technology change creative work?"
+    ],
+    "ideas": [
+      "不必成品完美，过程困难也能形成展开。",
+      "P3 不把技术一概说成提高或破坏创造力。"
+    ],
+    "phrases": [
+      "what I noticed was",
+      "looking back, I would say"
+    ],
+    "source": "本站 AI 辅助原创关联话题，不是当季预测题库。"
+  },
+  {
+    "id": "x-speaking-18",
+    "title": "道歉与沟通",
+    "p1": [
+      "Is it easy for you to explain a problem?",
+      "Do you prefer calls or messages for important conversations?",
+      "How do you handle misunderstandings?"
+    ],
+    "p2": "Describe a time you resolved a misunderstanding.",
+    "p2points": [
+      "who was involved",
+      "what caused the misunderstanding",
+      "how you dealt with it",
+      "and explain what changed afterwards"
+    ],
+    "p3": [
+      "Why do misunderstandings occur across cultures?",
+      "Is written communication always clearer?",
+      "How should organisations respond to complaints?"
+    ],
+    "ideas": [
+      "清楚交代误会来源，不需要将对方描写得很差。",
+      "P3 比较媒介与语境限制。"
+    ],
+    "phrases": [
+      "what I noticed was",
+      "looking back, I would say"
+    ],
+    "source": "本站 AI 辅助原创关联话题，不是当季预测题库。"
+  },
+  {
+    "id": "x-speaking-19",
+    "title": "价格与价值",
+    "p1": [
+      "Do you plan purchases in advance?",
+      "What do you consider good value?",
+      "Have you changed your spending habits?"
+    ],
+    "p2": "Describe something you bought that proved useful over time.",
+    "p2points": [
+      "what it was",
+      "why you chose it",
+      "how you have used it",
+      "and explain why it was worth buying"
+    ],
+    "p3": [
+      "Does a higher price always indicate better quality?",
+      "What information helps consumers choose durable products?",
+      "Should companies be responsible for disposal?"
+    ],
+    "ideas": [
+      "功能、耐久与实际使用情境支撑 worth buying。",
+      "P3 区分价格、质量与营销信息。"
+    ],
+    "phrases": [
+      "what I noticed was",
+      "looking back, I would say"
+    ],
+    "source": "本站 AI 辅助原创关联话题，不是当季预测题库。"
+  },
+  {
+    "id": "x-speaking-20",
+    "title": "观察与发现",
+    "p1": [
+      "Do you notice small changes around you?",
+      "What do you like observing outdoors?",
+      "Do you take notes or photographs of things you notice?"
+    ],
+    "p2": "Describe something interesting you noticed in an everyday place.",
+    "p2points": [
+      "where you were",
+      "what you noticed",
+      "why it caught your attention",
+      "and explain what you did afterwards"
+    ],
+    "p3": [
+      "How can observation support learning?",
+      "Are first impressions reliable?",
+      "What can the public contribute to scientific research?"
+    ],
+    "ideas": [
+      "普通发现也可：先描述可见细节，再解释意义。",
+      "P3 区分观察与推断。"
+    ],
+    "phrases": [
+      "what I noticed was",
+      "looking back, I would say"
+    ],
+    "source": "本站 AI 辅助原创关联话题，不是当季预测题库。"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "id": "my-academic-reading",
+  "skill": "reading",
+  "title": "自有阅读示例",
+  "subtitle": "格式演示 · 2 题，非完整模考",
+  "minutes": 5,
+  "source": "用户独立编写的示例",
+  "kind": "个人导入",
+  "review": "格式演示，请补充自己的材料并核对答案。",
+  "updated": "2026-11-13",
+  "difficulty": "未标准化",
+  "passages": [{
+    "id": "example-p1",
+    "title": "A small collection",
+    "paragraphs": [{"label":"A","text":"The fictional Alder collection keeps digital records and printed summaries. The summaries are a precaution against temporary access problems. They are not intended to replace the full database."}],
+    "questions": [
+      {"id":"example-q1","type":"text","prompt":"The collection keeps printed ____. Write ONE WORD.","answers":["summaries"],"maxWords":1,"evidence":"printed summaries","explanation":"printed 后的名词为 summaries，注意复数。"},
+      {"id":"example-q2","type":"select","prompt":"Printed copies are intended to replace the database.","answers":["FALSE"],"options":["TRUE","FALSE","NOT GIVEN"],"evidence":"They are not intended to replace the full database.","explanation":"原文明确否定 replace，与题干相反，因此是 False。"}
+    ]
+  }]
+}

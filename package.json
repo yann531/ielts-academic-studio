@@ -1,0 +1,30 @@
+{
+  "name": "ielts-academic-studio",
+  "private": true,
+  "version": "1.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "node scripts/make-content-bundle.mjs && tsc -b && vite build && node scripts/make-offline.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "check:content": "node scripts/check-content.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "check": "pnpm test && pnpm check:content && pnpm build",
+    "content:weekly": "node scripts/publish-weekly.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "typescript": "~5.9.2",
+    "vite": "^7.1.0",
+    "vitest": "^3.2.4"
+  },
+  "packageManager": "pnpm@10.15.1"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "weekly-r-1",
+    "skill": "reading",
+    "title": "Repair records and hidden failures",
+    "subtitle": "每周专项 · 证据与研究边界",
+    "minutes": 12,
+    "source": "本站原创 / AI 辅助编写，机构与研究情境均为虚构。",
+    "kind": "原创练习",
+    "review": "教学练习，未人工考官审定、未标准化校准。",
+    "updated": "2026-11-16",
+    "difficulty": "B2 目标阅读训练，非实测等级。",
+    "passages": [
+      {
+        "id": "weekly-r-1-p1",
+        "title": "Repair records and hidden failures",
+        "paragraphs": [
+          {
+            "label": "A",
+            "text": "In 2022, the fictional town of Mereford opened a repair desk for small household appliances. Volunteers recorded the item, its apparent fault and the outcome of each attempted repair. The council initially wanted to use the records to estimate the proportion of all broken appliances that could be repaired locally. However, an analyst pointed out that people who attended the desk had selected themselves. Owners of very cheap items might discard them without visiting, while owners of expensive equipment might use commercial services."
+          },
+          {
+            "label": "B",
+            "text": "The desk therefore began publishing a narrower measure: successful repairs as a proportion of items actually examined. It also recorded cases in which a fault could not be diagnosed. Previously these cases had been excluded, making the success rate appear higher. A separate note identified repairs delayed because replacement parts were unavailable. This distinction helped volunteers separate a lack of technical skill from a lack of suitable supplies."
+          },
+          {
+            "label": "C",
+            "text": "After six months, visitors reported that learning how to maintain an appliance was valuable even when the immediate repair failed. The desk added optional maintenance demonstrations, but did not count attendance as a successful repair. The analyst argued that recording different benefits separately made the report more informative. The project had not established whether it reduced appliance purchases across the town; answering that question would require evidence about households that never used the service."
+          }
+        ],
+        "questions": [
+          {
+            "id": "weekly-r-1-q1",
+            "type": "select",
+            "prompt": "True / False / Not Given: The original records represented every household in Mereford.",
+            "answers": [
+              "False"
+            ],
+            "options": [
+              "True",
+              "False",
+              "Not Given"
+            ],
+            "evidence": "people who attended the desk had selected themselves",
+            "explanation": "对照所引原文：明确相反信息判 False，原文未提供比较或因果证据判 Not Given；支持题干则判 True。"
+          },
+          {
+            "id": "weekly-r-1-q2",
+            "type": "select",
+            "prompt": "True / False / Not Given: Undiagnosed faults had previously been left out of the calculation.",
+            "answers": [
+              "True"
+            ],
+            "options": [
+              "True",
+              "False",
+              "Not Given"
+            ],
+            "evidence": "Previously these cases had been excluded",
+            "explanation": "对照所引原文：明确相反信息判 False，原文未提供比较或因果证据判 Not Given；支持题干则判 True。"
+          },
+          {
+            "id": "weekly-r-1-q3",
+            "type": "select",
+            "prompt": "True / False / Not Given: The maintenance demonstrations reduced visitors’ energy bills.",
+            "answers": [
+              "Not Given"
+            ],
+            "options": [
+              "True",
+              "False",
+              "Not Given"
+            ],
+            "evidence": "added optional maintenance demonstrations",
+            "explanation": "对照所引原文：明确相反信息判 False，原文未提供比较或因果证据判 Not Given；支持题干则判 True。"
+          },
+          {
+            "id": "weekly-r-1-q4",
+            "type": "text",
+            "prompt": "Complete with ONE WORD: The published repair rate now covered items actually _____.",
+            "answers": [
+              "examined"
+            ],
+            "maxWords": 1,
+            "evidence": "The desk therefore began publishing a narrower measure: successful repairs as a proportion of items actually examined. It also recorded cases in which a fault could not be diagnosed. Previously these cases had been excluded, making the success rate appear higher. A separate note identified repairs delayed because replacement parts were unavailable. This distinction helped volunteers separate a lack of technical skill from a lack of suitable supplies.",
+            "explanation": "根据题干关键词定位原文，抄取符合句法和单词数限制的对应词：examined。"
+          },
+          {
+            "id": "weekly-r-1-q5",
+            "type": "text",
+            "prompt": "Complete with ONE WORD: Some repairs were delayed by unavailable replacement _____.",
+            "answers": [
+              "parts"
+            ],
+            "maxWords": 1,
+            "evidence": "The desk therefore began publishing a narrower measure: successful repairs as a proportion of items actually examined. It also recorded cases in which a fault could not be diagnosed. Previously these cases had been excluded, making the success rate appear higher. A separate note identified repairs delayed because replacement parts were unavailable. This distinction helped volunteers separate a lack of technical skill from a lack of suitable supplies.",
+            "explanation": "根据题干关键词定位原文，抄取符合句法和单词数限制的对应词：parts。"
+          },
+          {
+            "id": "weekly-r-1-q6",
+            "type": "text",
+            "prompt": "Complete with ONE WORD: The desk offered optional maintenance _____.",
+            "answers": [
+              "demonstrations"
+            ],
+            "maxWords": 1,
+            "evidence": "After six months, visitors reported that learning how to maintain an appliance was valuable even when the immediate repair failed. The desk added optional maintenance demonstrations, but did not count attendance as a successful repair. The analyst argued that recording different benefits separately made the report more informative. The project had not established whether it reduced appliance purchases across the town; answering that question would require evidence about households that never used the service.",
+            "explanation": "根据题干关键词定位原文，抄取符合句法和单词数限制的对应词：demonstrations。"
+          }
+        ]
+      }
+    ]
+  }
+]

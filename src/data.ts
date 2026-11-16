@@ -1,0 +1,12 @@
+import papersJSON from './data/papers.json';
+import wordsJSON from './data/vocab.json';
+import resourcesJSON from './data/resources.json';
+import writingJSON from './data/writing.json';
+import speakingJSON from './data/speaking.json';
+import type {Paper,Word,Resource,WritingTask,SpeakingTopic} from './types';
+export const papers=papersJSON as Paper[];
+export const words=wordsJSON as Word[];
+export const resources=resourcesJSON as Resource[];
+export const writing=writingJSON as WritingTask[];
+export const speaking=speakingJSON as SpeakingTopic[];
+export const routes:Record<string,{title:string;eyebrow:string;description:string}>={daily:{title:'今天的学习任务。',eyebrow:'YOUR DAILY LESSON',description:'打开就练，完成自动记录；未完成内容按每日容量顺延。'},planner:{title:'把下一周安排好。',eyebrow:'YOUR WEEKLY PLAN',description:'到期复习、专项练习与表达训练，按天推进。'},home:{title:'每一天，更进一步。',eyebrow:'YOUR DAILY PRACTICE',description:'学一点，练一点，让进步成为日常。'},resources:{title:'从可靠的知识开始。',eyebrow:'THE LEARNING LIBRARY',description:'官方资源为主线，中文导学帮你找到下一步。'},listening:{title:'听清楚，也听明白。',eyebrow:'LISTENING LAB',description:'从场景到学术讲座，定位信息，识别改口与同义表达。'},reading:{title:'读懂证据，找到答案。',eyebrow:'READING ROOM',description:'学术主题精读，逐题证据与错因复盘。'},writing:{title:'让观点清楚地抵达。',eyebrow:'WRITING STUDIO',description:'从审题、提纲到重写，在真实表达中进步。'},speaking:{title:'把想法，说出来。',eyebrow:'SPEAKING STUDIO',description:'用自己的经历，练习自然、有条理的回答。'},vocab:{title:'让词汇成为你的表达。',eyebrow:'WORDS IN CONTEXT',description:'记住词义，练习搭配，在合适的时候想起来。'},review:{title:'回头看，是为了走更远。',eyebrow:'YOUR LEARNING JOURNAL',description:'跟踪真实练习，找到下一次值得改善的地方。'},library:{title:'你的私人资料架。',eyebrow:'PERSONAL LIBRARY',description:'书籍、录音与自有题库留在这台设备上。'},settings:{title:'把学习安排好。',eyebrow:'PREFERENCES & BACKUP',description:'复习节奏、数据备份，以及可选的模型连接。'},mock:{title:'给专注留一段时间。',eyebrow:'FOCUS & MOCK PRACTICE',description:'按考试时间组织练习；用官方完整卷校准，本站原创卷用于训练。'}};

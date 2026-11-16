@@ -1,0 +1,185 @@
+[
+  {
+    "id": "res-1",
+    "url": "https://ielts.org/take-a-test/preparation-resources/sample-test-questions/academic-test",
+    "status": 403,
+    "review": "manual-review",
+    "checked": "2026-11-13T12:51:29.083Z"
+  },
+  {
+    "id": "res-2",
+    "url": "https://takeielts.britishcouncil.org/prepare/ielts-free-practice-mock-tests/academic",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:51:29.717Z"
+  },
+  {
+    "id": "res-3",
+    "url": "https://takeielts.britishcouncil.org/prepare/ielts-ready",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:51:29.945Z"
+  },
+  {
+    "id": "res-4",
+    "url": "https://www.cambridgeenglish.org/exams-and-tests/ielts/preparation/",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:51:31.218Z"
+  },
+  {
+    "id": "res-5",
+    "url": "https://www.cambridge.es/en/catalogue/exams/courses/the-official-cambridge-guide-to-ielts",
+    "error": "TypeError: fetch failed",
+    "review": "manual-review",
+    "checked": "2026-11-13T12:51:41.908Z"
+  },
+  {
+    "id": "res-6",
+    "url": "https://www.cambridge.es/en/catalogue/exams/practice-material/practice-tests/ielts",
+    "error": "TypeError: fetch failed",
+    "review": "manual-review",
+    "checked": "2026-11-13T12:51:52.629Z"
+  },
+  {
+    "id": "res-7",
+    "url": "https://www.cambridgeenglish.org/exams-and-tests/ielts/preparation/",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:51:53.343Z"
+  },
+  {
+    "id": "res-8",
+    "url": "https://www.chinaielts.org/prepare/official-guide",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:53:44.161Z",
+    "researchNote": "Original source page also verified through the web research connector on 2026-11-13."
+  },
+  {
+    "id": "res-9",
+    "url": "https://uqcollege.uq.edu.au/study/english-studies/ieltsx",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:51:55.107Z"
+  },
+  {
+    "id": "res-10",
+    "url": "https://learnenglish.britishcouncil.org/ielts-preparation/ielts-coach",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:51:55.494Z"
+  },
+  {
+    "id": "res-11",
+    "url": "https://takeielts.britishcouncil.org/prepare/ielts-preparation-materials/live-sessions",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:51:56.608Z"
+  },
+  {
+    "id": "res-12",
+    "url": "https://ielts.idp.com/prepare/academic-and-ukvi",
+    "status": 403,
+    "review": "manual-review",
+    "checked": "2026-11-13T12:51:57.226Z"
+  },
+  {
+    "id": "res-13",
+    "url": "https://takeielts.britishcouncil.org/prepare/ielts-free-practice-mock-tests/academic/listening",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:51:57.461Z"
+  },
+  {
+    "id": "res-14",
+    "url": "https://learnenglish.britishcouncil.org/free-resources/general/audio-zone",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:51:57.713Z"
+  },
+  {
+    "id": "res-15",
+    "url": "https://learnenglish.britishcouncil.org/free-resources/listening",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:51:57.986Z"
+  },
+  {
+    "id": "res-16",
+    "url": "https://ielts.org/take-a-test/preparation-resources/writing-test-resources",
+    "status": 403,
+    "review": "manual-review",
+    "checked": "2026-11-13T12:51:58.491Z"
+  },
+  {
+    "id": "res-17",
+    "url": "https://ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf",
+    "status": 403,
+    "review": "manual-review",
+    "checked": "2026-11-13T12:51:58.739Z"
+  },
+  {
+    "id": "res-18",
+    "url": "https://ielts.org/cdn/ielts-guides/ielts-speaking-band-descriptors.pdf",
+    "status": 403,
+    "review": "manual-review",
+    "checked": "2026-11-13T12:51:58.970Z"
+  },
+  {
+    "id": "res-19",
+    "url": "https://takeielts.britishcouncil.org/teach-ielts/test-information/assessment",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:51:59.962Z"
+  },
+  {
+    "id": "res-20",
+    "url": "https://ielts.org/organisations/ielts-for-organisations/understanding-ielts-scoring/resources-for-setting-your-ielts-scores",
+    "status": 403,
+    "review": "manual-review",
+    "checked": "2026-11-13T12:52:00.201Z"
+  },
+  {
+    "id": "res-21",
+    "url": "https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:52:00.706Z"
+  },
+  {
+    "id": "res-22",
+    "url": "https://dictionary.cambridge.org/",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:52:01.270Z"
+  },
+  {
+    "id": "res-23",
+    "url": "https://learnenglish.britishcouncil.org/grammar",
+    "status": 403,
+    "review": "manual-review",
+    "checked": "2026-11-13T12:52:02.190Z"
+  },
+  {
+    "id": "res-24",
+    "url": "https://ieltsliz.com/",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:52:02.953Z"
+  },
+  {
+    "id": "res-25",
+    "url": "https://www.ieltsadvantage.com/ielts-courses-and-resources/",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:52:03.908Z"
+  },
+  {
+    "id": "res-26",
+    "url": "https://takeielts.britishcouncil.org/prepare/ielts-free-practice-mock-tests/ielts-familiarisation-test",
+    "status": 200,
+    "review": "reachable",
+    "checked": "2026-11-13T12:52:04.153Z"
+  }
+]

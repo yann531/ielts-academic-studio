@@ -1,0 +1,114 @@
+[
+  {
+    "id": "weekly-r-4",
+    "skill": "reading",
+    "title": "When a museum changes a label",
+    "subtitle": "每周专项 · 证据与研究边界",
+    "minutes": 12,
+    "source": "本站原创 / AI 辅助编写，机构与研究情境均为虚构。",
+    "kind": "原创练习",
+    "review": "教学练习，未人工考官审定、未标准化校准。",
+    "updated": "2026-11-16",
+    "difficulty": "B2 目标阅读训练，非实测等级。",
+    "passages": [
+      {
+        "id": "weekly-r-4-p1",
+        "title": "When a museum changes a label",
+        "paragraphs": [
+          {
+            "label": "A",
+            "text": "A fictional museum at Ashcombe rewrote labels in its geology gallery after visitors said that unfamiliar terminology made the displays difficult to follow. The first draft replaced technical words with everyday descriptions. A curator warned that removing every specialist term would prevent visitors from learning the vocabulary needed to explore the subject further. The final version retained key terms and explained them through examples."
+          },
+          {
+            "label": "B",
+            "text": "The museum compared two versions of a label beside the same mineral display on alternate days. Staff asked visitors to explain the main process in their own words rather than merely say whether they liked the text. Responses suggested that a short example helped people describe the process. However, the groups were not randomly assigned, and weekend visitors often included more families. Staff treated the result as a reason to refine the labels, not as definitive proof of a universal design rule."
+          },
+          {
+            "label": "C",
+            "text": "An audio description was added for visitors who preferred listening. Its script included details that could be felt on a replica, which visitors were permitted to touch. The museum kept a record of label revisions so that later evaluations could identify exactly what had changed. It had not tested whether visitors remembered the explanations several weeks later. The team planned a follow-up study but recognised that people willing to return might differ from other visitors."
+          }
+        ],
+        "questions": [
+          {
+            "id": "weekly-r-4-q1",
+            "type": "select",
+            "prompt": "True / False / Not Given: The final labels removed all specialist vocabulary.",
+            "answers": [
+              "False"
+            ],
+            "options": [
+              "True",
+              "False",
+              "Not Given"
+            ],
+            "evidence": "retained key terms",
+            "explanation": "对照所引原文：明确相反信息判 False，原文未提供比较或因果证据判 Not Given；支持题干则判 True。"
+          },
+          {
+            "id": "weekly-r-4-q2",
+            "type": "select",
+            "prompt": "True / False / Not Given: Visitors were asked to explain a process in their own words.",
+            "answers": [
+              "True"
+            ],
+            "options": [
+              "True",
+              "False",
+              "Not Given"
+            ],
+            "evidence": "explain the main process in their own words",
+            "explanation": "对照所引原文：明确相反信息判 False，原文未提供比较或因果证据判 Not Given；支持题干则判 True。"
+          },
+          {
+            "id": "weekly-r-4-q3",
+            "type": "select",
+            "prompt": "True / False / Not Given: Most visitors preferred audio to written labels.",
+            "answers": [
+              "Not Given"
+            ],
+            "options": [
+              "True",
+              "False",
+              "Not Given"
+            ],
+            "evidence": "visitors who preferred listening",
+            "explanation": "对照所引原文：明确相反信息判 False，原文未提供比较或因果证据判 Not Given；支持题干则判 True。"
+          },
+          {
+            "id": "weekly-r-4-q4",
+            "type": "text",
+            "prompt": "Complete with ONE WORD: Label versions were shown on alternate _____.",
+            "answers": [
+              "days"
+            ],
+            "maxWords": 1,
+            "evidence": "The museum compared two versions of a label beside the same mineral display on alternate days. Staff asked visitors to explain the main process in their own words rather than merely say whether they liked the text. Responses suggested that a short example helped people describe the process. However, the groups were not randomly assigned, and weekend visitors often included more families. Staff treated the result as a reason to refine the labels, not as definitive proof of a universal design rule.",
+            "explanation": "根据题干关键词定位原文，抄取符合句法和单词数限制的对应词：days。"
+          },
+          {
+            "id": "weekly-r-4-q5",
+            "type": "text",
+            "prompt": "Complete with ONE WORD: Visitors could touch a _____.",
+            "answers": [
+              "replica"
+            ],
+            "maxWords": 1,
+            "evidence": "An audio description was added for visitors who preferred listening. Its script included details that could be felt on a replica, which visitors were permitted to touch. The museum kept a record of label revisions so that later evaluations could identify exactly what had changed. It had not tested whether visitors remembered the explanations several weeks later. The team planned a follow-up study but recognised that people willing to return might differ from other visitors.",
+            "explanation": "根据题干关键词定位原文，抄取符合句法和单词数限制的对应词：replica。"
+          },
+          {
+            "id": "weekly-r-4-q6",
+            "type": "text",
+            "prompt": "Complete with ONE WORD: The museum recorded label _____.",
+            "answers": [
+              "revisions"
+            ],
+            "maxWords": 1,
+            "evidence": "An audio description was added for visitors who preferred listening. Its script included details that could be felt on a replica, which visitors were permitted to touch. The museum kept a record of label revisions so that later evaluations could identify exactly what had changed. It had not tested whether visitors remembered the explanations several weeks later. The team planned a follow-up study but recognised that people willing to return might differ from other visitors.",
+            "explanation": "根据题干关键词定位原文，抄取符合句法和单词数限制的对应词：revisions。"
+          }
+        ]
+      }
+    ]
+  }
+]

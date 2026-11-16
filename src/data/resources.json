@@ -1,0 +1,499 @@
+[
+  {
+    "id": "res-1",
+    "title": "Academic 官方样题与机考体验",
+    "publisher": "IELTS.org",
+    "official": true,
+    "skills": [
+      "规则",
+      "听力",
+      "阅读",
+      "写作",
+      "口语"
+    ],
+    "stage": "熟悉考试 → 专项 → 模考",
+    "language": "英文",
+    "cost": "免费",
+    "account": "无需账号",
+    "url": "https://ielts.org/take-a-test/preparation-resources/sample-test-questions/academic-test",
+    "checked": "2026-11-13",
+    "reason": "先核对考试结构，再按题型体验。页面提供听力题目、答案、文本及写作与口语样题；外链材料不离线缓存。",
+    "format": "教程 / 练习"
+  },
+  {
+    "id": "res-2",
+    "title": "官方 Academic 免费练习",
+    "publisher": "British Council",
+    "official": true,
+    "skills": [
+      "听力",
+      "阅读",
+      "写作",
+      "口语"
+    ],
+    "stage": "熟悉考试 → 专项 → 模考",
+    "language": "英文",
+    "cost": "免费",
+    "account": "无需账号",
+    "url": "https://takeielts.britishcouncil.org/prepare/ielts-free-practice-mock-tests/academic",
+    "checked": "2026-11-13",
+    "reason": "四科官方练习入口。用来校验本站原创练习与正式材料的差别；完成后按原站答案复盘。",
+    "format": "教程 / 练习"
+  },
+  {
+    "id": "res-3",
+    "title": "IELTS Ready",
+    "publisher": "British Council",
+    "official": true,
+    "skills": [
+      "听力",
+      "阅读",
+      "写作",
+      "口语"
+    ],
+    "stage": "熟悉考试 → 专项 → 模考",
+    "language": "英文",
+    "cost": "免费 + 可选付费",
+    "account": "部分内容需注册",
+    "url": "https://takeielts.britishcouncil.org/prepare/ielts-ready",
+    "checked": "2026-11-13",
+    "reason": "官方备考平台。免费层、报名附赠与付费层权益不同，按所在地和当前账号页面确认。",
+    "format": "教程 / 练习"
+  },
+  {
+    "id": "res-4",
+    "title": "官方书籍与课程总览",
+    "publisher": "Cambridge English",
+    "official": true,
+    "skills": [
+      "规则",
+      "听力",
+      "阅读",
+      "写作",
+      "口语"
+    ],
+    "stage": "熟悉考试 → 专项 → 模考",
+    "language": "英文",
+    "cost": "公开介绍免费，书籍付费",
+    "account": "样题无需账号，数字包依产品",
+    "url": "https://www.cambridgeenglish.org/exams-and-tests/ielts/preparation/",
+    "checked": "2026-11-13",
+    "reason": "汇集 Guide、Mindset、IELTS 21 Academic 及官方样卷。真题训练用原书配套音频；本站仅提供原始入口。",
+    "format": "教程 / 练习"
+  },
+  {
+    "id": "res-5",
+    "title": "The Official Cambridge Guide to IELTS",
+    "publisher": "Cambridge University Press & Assessment",
+    "official": true,
+    "skills": [
+      "听力",
+      "阅读",
+      "写作",
+      "口语"
+    ],
+    "stage": "系统入门 / 巩固",
+    "language": "英文",
+    "cost": "书籍付费",
+    "account": "购买配套资源依版本",
+    "url": "https://www.cambridge.es/en/catalogue/exams/courses/the-official-cambridge-guide-to-ielts",
+    "checked": "2026-11-13",
+    "reason": "适合作为自学主线：先技能讲解，再做练习。书含 A/G 内容，只使用 Academic 阅读写作章节。",
+    "format": "书籍"
+  },
+  {
+    "id": "res-6",
+    "title": "IELTS 21 Academic / 真题系列",
+    "publisher": "Cambridge University Press & Assessment",
+    "official": true,
+    "skills": [
+      "听力",
+      "阅读",
+      "写作",
+      "口语"
+    ],
+    "stage": "阶段检测 / 考前",
+    "language": "英文",
+    "cost": "书籍付费",
+    "account": "数字包依版本",
+    "url": "https://www.cambridge.es/en/catalogue/exams/practice-material/practice-tests/ielts",
+    "checked": "2026-11-13",
+    "reason": "剑桥官方出版练习卷，用作考前校准。2026 版为 IELTS 21；购买时确认 Academic 与配套数字包。",
+    "format": "书籍 / 配套音频"
+  },
+  {
+    "id": "res-7",
+    "title": "Mindset for IELTS",
+    "publisher": "Cambridge English",
+    "official": true,
+    "skills": [
+      "听力",
+      "阅读",
+      "写作",
+      "口语"
+    ],
+    "stage": "系统学习",
+    "language": "英文",
+    "cost": "课程教材付费",
+    "account": "依产品",
+    "url": "https://www.cambridgeenglish.org/exams-and-tests/ielts/preparation/",
+    "checked": "2026-11-13",
+    "reason": "分级课程适合补齐技能。按当前水平选择，避免同时堆叠多套主教材。",
+    "format": "分级课程"
+  },
+  {
+    "id": "res-8",
+    "title": "雅思考试官方指南（第二版）",
+    "publisher": "British Council / 中国雅思官网",
+    "official": true,
+    "skills": [
+      "听力",
+      "阅读",
+      "写作",
+      "口语"
+    ],
+    "stage": "系统入门",
+    "language": "中英双语",
+    "cost": "样章公开，整书付费",
+    "account": "音视频按原站",
+    "url": "https://www.chinaielts.org/prepare/official-guide",
+    "checked": "2026-11-13",
+    "reason": "中文母语自学的导学选择。查阅官方样章、音视频入口；与 Cambridge Guide 是不同书籍。",
+    "format": "书籍 / 样章 / 音视频"
+  },
+  {
+    "id": "res-9",
+    "title": "IELTSx 系统课",
+    "publisher": "The University of Queensland / UQ College",
+    "official": true,
+    "skills": [
+      "听力",
+      "阅读",
+      "写作",
+      "口语"
+    ],
+    "stage": "系统学习",
+    "language": "英文",
+    "cost": "免费旁听 / 可选升级",
+    "account": "edX 注册",
+    "url": "https://uqcollege.uq.edu.au/study/english-studies/ieltsx",
+    "checked": "2026-11-13",
+    "reason": "大学提供的四科视频和练习课程。UQ 页面介绍免费学习；edX 访问周期、证书及升级权益以课程页为准。",
+    "format": "大学课程"
+  },
+  {
+    "id": "res-10",
+    "title": "IELTS Coach",
+    "publisher": "British Council",
+    "official": true,
+    "skills": [
+      "听力",
+      "阅读",
+      "写作",
+      "口语"
+    ],
+    "stage": "需真人指导",
+    "language": "英文",
+    "cost": "付费",
+    "account": "需账号",
+    "url": "https://learnenglish.britishcouncil.org/ielts-preparation/ielts-coach",
+    "checked": "2026-11-13",
+    "reason": "需要真人纠正和结构化课时再选择。与免费资源区分，本站功能无需购买课程。",
+    "format": "教师课程"
+  },
+  {
+    "id": "res-11",
+    "title": "IELTS Live Sessions",
+    "publisher": "British Council",
+    "official": true,
+    "skills": [
+      "规则",
+      "听力",
+      "阅读",
+      "写作",
+      "口语"
+    ],
+    "stage": "专项策略",
+    "language": "英文",
+    "cost": "免费",
+    "account": "按直播平台",
+    "url": "https://takeielts.britishcouncil.org/prepare/ielts-preparation-materials/live-sessions",
+    "checked": "2026-11-13",
+    "reason": "官方公开讲座和社交平台直播入口，按当期日程观看，适合补充题型策略。",
+    "format": "讲座"
+  },
+  {
+    "id": "res-12",
+    "title": "Academic 备考中心",
+    "publisher": "IDP IELTS",
+    "official": true,
+    "skills": [
+      "规则",
+      "听力",
+      "阅读",
+      "写作",
+      "口语"
+    ],
+    "stage": "熟悉考试 → 专项 → 模考",
+    "language": "英文",
+    "cost": "免费 + 可选产品",
+    "account": "部分需账号",
+    "url": "https://ielts.idp.com/prepare/academic-and-ukvi",
+    "checked": "2026-11-13",
+    "reason": "考试主办方的学术类资料入口；地区跳转、账号与免费内容以当地页面为准。",
+    "format": "教程 / 练习"
+  },
+  {
+    "id": "res-13",
+    "title": "Listening 题型与官方练习",
+    "publisher": "British Council",
+    "official": true,
+    "skills": [
+      "听力"
+    ],
+    "stage": "熟悉考试 → 专项 → 模考",
+    "language": "英文",
+    "cost": "免费",
+    "account": "无需账号",
+    "url": "https://takeielts.britishcouncil.org/prepare/ielts-free-practice-mock-tests/academic/listening",
+    "checked": "2026-11-13",
+    "reason": "按填空、匹配、地图等题型训练；先听后核对文本，记录定位、干扰项、拼写三类错因。",
+    "format": "教程 / 练习"
+  },
+  {
+    "id": "res-14",
+    "title": "B2 / C1 Audio Zone",
+    "publisher": "British Council LearnEnglish",
+    "official": true,
+    "skills": [
+      "听力",
+      "词汇"
+    ],
+    "stage": "熟悉考试 → 专项 → 模考",
+    "language": "英文",
+    "cost": "免费",
+    "account": "无需账号",
+    "url": "https://learnenglish.britishcouncil.org/free-resources/general/audio-zone",
+    "checked": "2026-11-13",
+    "reason": "不同口音的真实英语，带文本和理解练习。适合听辨与复述，不将其当作 IELTS 标准模考。",
+    "format": "教程 / 练习"
+  },
+  {
+    "id": "res-15",
+    "title": "分级听力",
+    "publisher": "British Council LearnEnglish",
+    "official": true,
+    "skills": [
+      "听力"
+    ],
+    "stage": "熟悉考试 → 专项 → 模考",
+    "language": "英文",
+    "cost": "免费",
+    "account": "无需账号",
+    "url": "https://learnenglish.britishcouncil.org/free-resources/listening",
+    "checked": "2026-11-13",
+    "reason": "选择 B1/B2/C1 难度进行精听，听懂后口头总结；难度标签是课程级别。",
+    "format": "教程 / 练习"
+  },
+  {
+    "id": "res-16",
+    "title": "Writing 官方备考与评分资料",
+    "publisher": "IELTS.org",
+    "official": true,
+    "skills": [
+      "写作"
+    ],
+    "stage": "熟悉考试 → 专项 → 模考",
+    "language": "英文",
+    "cost": "免费",
+    "account": "无需账号",
+    "url": "https://ielts.org/take-a-test/preparation-resources/writing-test-resources",
+    "checked": "2026-11-13",
+    "reason": "对照官方任务说明和评分标准。Task 1 不发表个人观点；Task 2 覆盖题目全部指令。",
+    "format": "教程 / 练习"
+  },
+  {
+    "id": "res-17",
+    "title": "Writing Band Descriptors",
+    "publisher": "IELTS.org",
+    "official": true,
+    "skills": [
+      "写作"
+    ],
+    "stage": "所有阶段",
+    "language": "英文",
+    "cost": "免费",
+    "account": "无需账号",
+    "url": "https://ielts.org/cdn/ielts-guides/ielts-writing-band-descriptors.pdf",
+    "checked": "2026-11-13",
+    "reason": "公开评分标准 PDF。区分任务完成、连贯、词汇、语法；用具体原文证据自评。",
+    "format": "公开 PDF"
+  },
+  {
+    "id": "res-18",
+    "title": "Speaking Band Descriptors",
+    "publisher": "IELTS.org",
+    "official": true,
+    "skills": [
+      "口语"
+    ],
+    "stage": "所有阶段",
+    "language": "英文",
+    "cost": "免费",
+    "account": "无需账号",
+    "url": "https://ielts.org/cdn/ielts-guides/ielts-speaking-band-descriptors.pdf",
+    "checked": "2026-11-13",
+    "reason": "公开评分标准 PDF。流利与连贯、词汇、语法、发音四项；仅有文字稿无法判断发音。",
+    "format": "公开 PDF"
+  },
+  {
+    "id": "res-19",
+    "title": "评分标准下载与教学指引",
+    "publisher": "British Council",
+    "official": true,
+    "skills": [
+      "规则",
+      "写作",
+      "口语"
+    ],
+    "stage": "熟悉考试 → 专项 → 模考",
+    "language": "英文",
+    "cost": "免费",
+    "account": "无需账号",
+    "url": "https://takeielts.britishcouncil.org/teach-ielts/test-information/assessment",
+    "checked": "2026-11-13",
+    "reason": "核对评分量表，并学习各档表现差异。本站自评与模型建议均非正式考试成绩。",
+    "format": "教程 / 练习"
+  },
+  {
+    "id": "res-20",
+    "title": "口语示例与考官讲评",
+    "publisher": "IELTS.org",
+    "official": true,
+    "skills": [
+      "口语"
+    ],
+    "stage": "熟悉考试 → 专项 → 模考",
+    "language": "英文",
+    "cost": "免费",
+    "account": "无需账号",
+    "url": "https://ielts.org/organisations/ielts-for-organisations/understanding-ielts-scoring/resources-for-setting-your-ielts-scores",
+    "checked": "2026-11-13",
+    "reason": "观看带考官说明的示例，比较同一标准下的表现，不以背诵范文代替表达训练。",
+    "format": "教程 / 练习"
+  },
+  {
+    "id": "res-21",
+    "title": "Oxford 3000 / 5000",
+    "publisher": "Oxford Learner’s Dictionaries",
+    "official": false,
+    "skills": [
+      "词汇"
+    ],
+    "stage": "B1+ / B2 / 常用 C1",
+    "language": "英文",
+    "cost": "词表免费，部分功能付费",
+    "account": "按功能",
+    "url": "https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000",
+    "checked": "2026-11-13",
+    "reason": "通用英语分级词表，用于查词和校准难度，不是雅思官方必考词。本库为独立编写的主题选词。",
+    "format": "词典 / 词表"
+  },
+  {
+    "id": "res-22",
+    "title": "词义、用法与发音查询",
+    "publisher": "Cambridge Dictionary",
+    "official": false,
+    "skills": [
+      "词汇",
+      "语法"
+    ],
+    "stage": "所有阶段",
+    "language": "英文 / 中英",
+    "cost": "免费",
+    "account": "无需账号",
+    "url": "https://dictionary.cambridge.org/",
+    "checked": "2026-11-13",
+    "reason": "查清具体义项、可数性与搭配，再迁移到自己的句子。词典权威性不等于雅思主办方身份。",
+    "format": "词典"
+  },
+  {
+    "id": "res-23",
+    "title": "分级语法练习",
+    "publisher": "British Council LearnEnglish",
+    "official": true,
+    "skills": [
+      "语法",
+      "写作",
+      "口语"
+    ],
+    "stage": "熟悉考试 → 专项 → 模考",
+    "language": "英文",
+    "cost": "免费",
+    "account": "无需账号",
+    "url": "https://learnenglish.britishcouncil.org/grammar",
+    "checked": "2026-11-13",
+    "reason": "围绕真实错误补课：冠词、主谓一致、从句和时态。每次只选一个问题，随后用到作文和口语。",
+    "format": "教程 / 练习"
+  },
+  {
+    "id": "res-24",
+    "title": "IELTS Liz 免费课程",
+    "publisher": "IELTS Liz",
+    "official": false,
+    "skills": [
+      "听力",
+      "阅读",
+      "写作",
+      "口语"
+    ],
+    "stage": "专项巩固",
+    "language": "英文",
+    "cost": "大量免费 + 付费课程",
+    "account": "免费页无需账号",
+    "url": "https://ieltsliz.com/",
+    "checked": "2026-11-13",
+    "reason": "非官方教师补充资料，适合查题型技巧；考试规则与评分仍核对官方来源。",
+    "format": "教程 / 练习"
+  },
+  {
+    "id": "res-25",
+    "title": "IELTS Advantage 免费课程",
+    "publisher": "IELTS Advantage",
+    "official": false,
+    "skills": [
+      "听力",
+      "阅读",
+      "写作",
+      "口语"
+    ],
+    "stage": "专项巩固",
+    "language": "英文",
+    "cost": "免费 + 付费课程",
+    "account": "部分需注册",
+    "url": "https://www.ieltsadvantage.com/ielts-courses-and-resources/",
+    "checked": "2026-11-13",
+    "reason": "非官方教学机构，先使用免费基础课和写作讲解。商业课程不构成本站必要依赖。",
+    "format": "教程 / 练习"
+  },
+  {
+    "id": "res-26",
+    "title": "机考 Familiarisation",
+    "publisher": "British Council",
+    "official": true,
+    "skills": [
+      "规则",
+      "听力",
+      "阅读",
+      "写作"
+    ],
+    "stage": "熟悉考试 → 专项 → 模考",
+    "language": "英文",
+    "cost": "免费",
+    "account": "无需账号",
+    "url": "https://takeielts.britishcouncil.org/prepare/ielts-free-practice-mock-tests/ielts-familiarisation-test",
+    "checked": "2026-11-13",
+    "reason": "考前熟悉机考界面。听读结果与写作口语反馈的提供方式不同，以页面说明为准。",
+    "format": "教程 / 练习"
+  }
+]

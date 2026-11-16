@@ -1,0 +1,8 @@
+<!doctype html><html lang="zh-CN"><meta charset="UTF-8"><title>录音功能校验（合成音源）</title><body><h1>录音功能校验</h1><p>使用合成音源测试与口语页面相同的 MediaRecorder 代码，不打开麦克风、不采集环境声音。</p><button id="start">生成一段测试录音</button><p id="result">尚未开始</p><audio controls id="audio"></audio><a id="download" download="synthetic-recording.webm">导出测试录音</a><script type="module">
+import {makeRecorder} from '/src/recorder.ts';
+document.querySelector('#start').onclick=async()=>{
+ const context=new AudioContext();await context.resume();const osc=context.createOscillator(),gain=context.createGain(),destination=context.createMediaStreamDestination();gain.gain.value=.03;osc.frequency.value=440;osc.connect(gain);gain.connect(destination);
+ const rec=makeRecorder(destination.stream,blob=>{const url=URL.createObjectURL(blob);document.querySelector('#audio').src=url;document.querySelector('#download').href=url;document.querySelector('#result').textContent=blob.size>100?'PASS · '+blob.size+' bytes · '+blob.type:'FAIL';},()=>{osc.stop();destination.stream.getTracks().forEach(t=>t.stop());void context.close();},()=>{document.querySelector('#result').textContent='FAIL · recorder error';});
+ osc.start();rec.start(100);document.querySelector('#result').textContent='正在录制合成音…';setTimeout(()=>rec.stop(),1500);
+};
+</script></body></html>

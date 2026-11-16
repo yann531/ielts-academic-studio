@@ -1,0 +1,9 @@
+import http from 'node:http';
+import fs from 'node:fs';
+import path from 'node:path';
+const args=process.argv.slice(2),get=(name,fallback)=>args.includes(name)?args[args.indexOf(name)+1]:fallback;
+const port=Number(get('--port','4173')),base=get('--base','/'),root=path.resolve('dist');
+if(!fs.existsSync(path.join(root,'index.html')))throw Error('请先运行 pnpm build');
+if(!base.startsWith('/')||!base.endsWith('/'))throw Error('--base 必须以 / 开始和结束');
+const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.wav':'audio/wav','.json':'application/json; charset=utf-8','.csv':'text/csv; charset=utf-8','.md':'text/plain; charset=utf-8'};
+http.createServer((req,res)=>{try{const url=new URL(req.url,'http://localhost');if(!url.pathname.startsWith(base)){res.writeHead(302,{Location:base});return res.end();}const relative=decodeURIComponent(url.pathname.slice(base.length));const file=path.resolve(root,relative||'index.html');if(!file.startsWith(root+path.sep)||!fs.existsSync(file)||!fs.statSync(file).isFile()){res.writeHead(404);return res.end('Not found');}const size=fs.statSync(file).size;let start=0,end=size-1,status=200;const range=req.headers.range;if(range){const m=/^bytes=(\d+)-(\d*)$/.exec(range);if(!m||Number(m[1])>=size){res.writeHead(416,{'Content-Range':'bytes */'+size});return res.end();}start=Number(m[1]);end=m[2]?Math.min(Number(m[2]),size-1):size-1;status=206;}const headers={'Content-Type':mime[path.extname(file)]||'application/octet-stream','Accept-Ranges':'bytes','Content-Length':end-start+1,'Cache-Control':'no-cache'};if(status===206)headers['Content-Range']=`bytes ${start}-${end}/${size}`;res.writeHead(status,headers);if(req.method==='HEAD')return res.end();fs.createReadStream(file,{start,end}).pipe(res);}catch{res.writeHead(400);res.end('Bad request');}}).listen(port,'127.0.0.1',()=>console.log(`Local: http://127.0.0.1:${port}${base}`));

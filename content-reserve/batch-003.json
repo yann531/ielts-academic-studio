@@ -1,0 +1,114 @@
+[
+  {
+    "id": "weekly-r-3",
+    "skill": "reading",
+    "title": "The bus timetable experiment",
+    "subtitle": "每周专项 · 证据与研究边界",
+    "minutes": 12,
+    "source": "本站原创 / AI 辅助编写，机构与研究情境均为虚构。",
+    "kind": "原创练习",
+    "review": "教学练习，未人工考官审定、未标准化校准。",
+    "updated": "2026-11-16",
+    "difficulty": "B2 目标阅读训练，非实测等级。",
+    "passages": [
+      {
+        "id": "weekly-r-3-p1",
+        "title": "The bus timetable experiment",
+        "paragraphs": [
+          {
+            "label": "A",
+            "text": "The fictional city of Renwick tested a revised bus timetable on two routes. Instead of adding departures, planners moved several departures to match shift changes at a hospital. Passenger numbers increased during the first month. The transport office cautioned that the month also included roadworks that made driving less convenient. Comparing passenger totals before and after the change alone would not separate these effects."
+          },
+          {
+            "label": "B",
+            "text": "Researchers therefore examined a third route where the timetable had remained unchanged. This comparison was useful but imperfect: the third route served a college, whose term dates affected demand. The team reported the different contexts rather than treating the comparison as a controlled experiment. Interviews with hospital staff suggested that a reliable connection mattered more to some workers than a small reduction in journey time."
+          },
+          {
+            "label": "C",
+            "text": "The office retained the revised timetable for another three months and began collecting information about missed connections. It published departure reliability separately from passenger satisfaction, since a crowded but punctual bus might receive low comfort ratings. The findings supported continued monitoring, rather than a claim that moving departures would work equally well across the whole network. No fare changes were introduced during the pilot, and the report did not estimate the cost of extending the scheme."
+          }
+        ],
+        "questions": [
+          {
+            "id": "weekly-r-3-q1",
+            "type": "select",
+            "prompt": "True / False / Not Given: The pilot increased the number of departures.",
+            "answers": [
+              "False"
+            ],
+            "options": [
+              "True",
+              "False",
+              "Not Given"
+            ],
+            "evidence": "Instead of adding departures",
+            "explanation": "对照所引原文：明确相反信息判 False，原文未提供比较或因果证据判 Not Given；支持题干则判 True。"
+          },
+          {
+            "id": "weekly-r-3-q2",
+            "type": "select",
+            "prompt": "True / False / Not Given: The comparison route served a college.",
+            "answers": [
+              "True"
+            ],
+            "options": [
+              "True",
+              "False",
+              "Not Given"
+            ],
+            "evidence": "the third route served a college",
+            "explanation": "对照所引原文：明确相反信息判 False，原文未提供比较或因果证据判 Not Given；支持题干则判 True。"
+          },
+          {
+            "id": "weekly-r-3-q3",
+            "type": "select",
+            "prompt": "True / False / Not Given: The report calculated the cost of a city-wide extension.",
+            "answers": [
+              "False"
+            ],
+            "options": [
+              "True",
+              "False",
+              "Not Given"
+            ],
+            "evidence": "did not estimate the cost of extending the scheme",
+            "explanation": "对照所引原文：明确相反信息判 False，原文未提供比较或因果证据判 Not Given；支持题干则判 True。"
+          },
+          {
+            "id": "weekly-r-3-q4",
+            "type": "text",
+            "prompt": "Complete with ONE WORD: Departures were adjusted to match hospital shift _____.",
+            "answers": [
+              "changes"
+            ],
+            "maxWords": 1,
+            "evidence": "The fictional city of Renwick tested a revised bus timetable on two routes. Instead of adding departures, planners moved several departures to match shift changes at a hospital. Passenger numbers increased during the first month. The transport office cautioned that the month also included roadworks that made driving less convenient. Comparing passenger totals before and after the change alone would not separate these effects.",
+            "explanation": "根据题干关键词定位原文，抄取符合句法和单词数限制的对应词：changes。"
+          },
+          {
+            "id": "weekly-r-3-q5",
+            "type": "text",
+            "prompt": "Complete with ONE WORD: Driving was less convenient because of _____.",
+            "answers": [
+              "roadworks"
+            ],
+            "maxWords": 1,
+            "evidence": "The fictional city of Renwick tested a revised bus timetable on two routes. Instead of adding departures, planners moved several departures to match shift changes at a hospital. Passenger numbers increased during the first month. The transport office cautioned that the month also included roadworks that made driving less convenient. Comparing passenger totals before and after the change alone would not separate these effects.",
+            "explanation": "根据题干关键词定位原文，抄取符合句法和单词数限制的对应词：roadworks。"
+          },
+          {
+            "id": "weekly-r-3-q6",
+            "type": "text",
+            "prompt": "Complete with ONE WORD: Researchers collected information about missed _____.",
+            "answers": [
+              "connections"
+            ],
+            "maxWords": 1,
+            "evidence": "The office retained the revised timetable for another three months and began collecting information about missed connections. It published departure reliability separately from passenger satisfaction, since a crowded but punctual bus might receive low comfort ratings. The findings supported continued monitoring, rather than a claim that moving departures would work equally well across the whole network. No fare changes were introduced during the pilot, and the report did not estimate the cost of extending the scheme.",
+            "explanation": "根据题干关键词定位原文，抄取符合句法和单词数限制的对应词：connections。"
+          }
+        ]
+      }
+    ]
+  }
+]

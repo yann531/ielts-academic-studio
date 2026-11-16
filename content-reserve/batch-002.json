@@ -1,0 +1,114 @@
+[
+  {
+    "id": "weekly-r-2",
+    "skill": "reading",
+    "title": "A seed collection with missing stories",
+    "subtitle": "每周专项 · 证据与研究边界",
+    "minutes": 12,
+    "source": "本站原创 / AI 辅助编写，机构与研究情境均为虚构。",
+    "kind": "原创练习",
+    "review": "教学练习，未人工考官审定、未标准化校准。",
+    "updated": "2026-11-16",
+    "difficulty": "B2 目标阅读训练，非实测等级。",
+    "passages": [
+      {
+        "id": "weekly-r-2-p1",
+        "title": "A seed collection with missing stories",
+        "paragraphs": [
+          {
+            "label": "A",
+            "text": "At a fictional regional garden, staff discovered a box of seeds collected during a survey forty years earlier. Labels gave dates and locations, but rarely described how many plants had been sampled. The collection was potentially useful for studying change, yet it could not be assumed to represent the full diversity of the original populations. A single productive plant might have supplied most seeds in an envelope."
+          },
+          {
+            "label": "B",
+            "text": "Before attempting large-scale germination, the curator set aside a small sample from each envelope for a pilot test. The aim was to learn which storage histories were associated with survival while preserving material for later work. Seeds that did not germinate were not automatically classified as dead: some species require a period of cold or other environmental signals before growth begins. The team tested several treatments and documented them individually."
+          },
+          {
+            "label": "C",
+            "text": "Local residents supplied photographs and notebooks describing the survey. These sources clarified some collection routes, although memories sometimes disagreed with written dates. The curator retained both accounts with an explanation of the discrepancy instead of choosing whichever seemed more convenient. The project could reveal which surviving seeds responded to particular treatments. It could not reconstruct all the genetic variation that had existed in the landscape forty years earlier."
+          }
+        ],
+        "questions": [
+          {
+            "id": "weekly-r-2-q1",
+            "type": "select",
+            "prompt": "True / False / Not Given: The labels usually stated how many plants had been sampled.",
+            "answers": [
+              "False"
+            ],
+            "options": [
+              "True",
+              "False",
+              "Not Given"
+            ],
+            "evidence": "rarely described how many plants had been sampled",
+            "explanation": "对照所引原文：明确相反信息判 False，原文未提供比较或因果证据判 Not Given；支持题干则判 True。"
+          },
+          {
+            "id": "weekly-r-2-q2",
+            "type": "select",
+            "prompt": "True / False / Not Given: Failure to germinate always proved that a seed was dead.",
+            "answers": [
+              "False"
+            ],
+            "options": [
+              "True",
+              "False",
+              "Not Given"
+            ],
+            "evidence": "not automatically classified as dead",
+            "explanation": "对照所引原文：明确相反信息判 False，原文未提供比较或因果证据判 Not Given；支持题干则判 True。"
+          },
+          {
+            "id": "weekly-r-2-q3",
+            "type": "select",
+            "prompt": "True / False / Not Given: Every resident had participated in the original survey.",
+            "answers": [
+              "Not Given"
+            ],
+            "options": [
+              "True",
+              "False",
+              "Not Given"
+            ],
+            "evidence": "Local residents supplied photographs and notebooks",
+            "explanation": "对照所引原文：明确相反信息判 False，原文未提供比较或因果证据判 Not Given；支持题干则判 True。"
+          },
+          {
+            "id": "weekly-r-2-q4",
+            "type": "text",
+            "prompt": "Complete with ONE WORD: The curator first conducted a small _____ test.",
+            "answers": [
+              "pilot"
+            ],
+            "maxWords": 1,
+            "evidence": "Before attempting large-scale germination, the curator set aside a small sample from each envelope for a pilot test. The aim was to learn which storage histories were associated with survival while preserving material for later work. Seeds that did not germinate were not automatically classified as dead: some species require a period of cold or other environmental signals before growth begins. The team tested several treatments and documented them individually.",
+            "explanation": "根据题干关键词定位原文，抄取符合句法和单词数限制的对应词：pilot。"
+          },
+          {
+            "id": "weekly-r-2-q5",
+            "type": "text",
+            "prompt": "Complete with ONE WORD: Some species need a period of _____ before growth begins.",
+            "answers": [
+              "cold"
+            ],
+            "maxWords": 1,
+            "evidence": "Before attempting large-scale germination, the curator set aside a small sample from each envelope for a pilot test. The aim was to learn which storage histories were associated with survival while preserving material for later work. Seeds that did not germinate were not automatically classified as dead: some species require a period of cold or other environmental signals before growth begins. The team tested several treatments and documented them individually.",
+            "explanation": "根据题干关键词定位原文，抄取符合句法和单词数限制的对应词：cold。"
+          },
+          {
+            "id": "weekly-r-2-q6",
+            "type": "text",
+            "prompt": "Complete with ONE WORD: Residents provided photographs and _____.",
+            "answers": [
+              "notebooks"
+            ],
+            "maxWords": 1,
+            "evidence": "Local residents supplied photographs and notebooks describing the survey. These sources clarified some collection routes, although memories sometimes disagreed with written dates. The curator retained both accounts with an explanation of the discrepancy instead of choosing whichever seemed more convenient. The project could reveal which surviving seeds responded to particular treatments. It could not reconstruct all the genetic variation that had existed in the landscape forty years earlier.",
+            "explanation": "根据题干关键词定位原文，抄取符合句法和单词数限制的对应词：notebooks。"
+          }
+        ]
+      }
+    ]
+  }
+]
