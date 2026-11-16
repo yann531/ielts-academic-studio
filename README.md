@@ -1,6 +1,7 @@
 # IELTS Academic Studio
 
 面向中文母语自学者的免费 IELTS Academic 学习空间。React + TypeScript + Vite，静态托管，无账号、数据库服务器或付费 API 的必要依赖。界面借鉴 iOS 的通透层次与柔和动效，兼顾长文阅读、移动背词、深浅主题与减少动态效果偏好。
+https://yann531.github.io/ielts-academic-studio/
 
 ## 能实际做什么
 
