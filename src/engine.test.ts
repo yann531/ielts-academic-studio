@@ -24,5 +24,5 @@ describe('backup and import integrity',()=>{
 });
 describe('content as a usable question bank',()=>{
  it('contains two 40-question sets for each objective skill',()=>{expect(papers.length).toBeGreaterThanOrEqual(7);for(const p of papers){expect(validatePaper(p)).toBe(true);expect(p.passages.flatMap(p=>p.questions).length).toBeGreaterThanOrEqual(6);for(const q of p.passages.flatMap(p=>p.questions))for(const a of q.answers)expect(grade(q,a),q.id+' '+a).toBe(true);}});
- it('has unique IDs and useful production content',()=>{expect(new Set(words.map(w=>w.term.toLowerCase())).size).toBe(700);expect(writing).toHaveLength(40);expect(speaking).toHaveLength(20);expect(writing.filter(t=>t.sample)).toHaveLength(5);for(const p of papers)for(const q of p.passages.flatMap(p=>p.questions)){expect(q.evidence.length).toBeGreaterThan(5);expect(q.explanation.length).toBeGreaterThan(8);}});
+ it('has unique IDs and useful production content',()=>{expect(words.length).toBeGreaterThanOrEqual(763);expect(new Set(words.map(w=>w.term.toLowerCase())).size).toBe(words.length);expect(writing).toHaveLength(40);expect(speaking).toHaveLength(20);expect(writing.filter(t=>t.sample)).toHaveLength(5);for(const p of papers)for(const q of p.passages.flatMap(p=>p.questions)){expect(q.evidence.length).toBeGreaterThan(5);expect(q.explanation.length).toBeGreaterThan(8);}});
 });

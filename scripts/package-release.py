@@ -2,9 +2,9 @@
 import pathlib,zipfile,hashlib
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 OUT=ROOT/'releases';OUT.mkdir(exist_ok=True)
-name=OUT/'ielts-academic-studio-v1.3.0.zip'
-allowed=['content-reserve','src','public','scripts','docs','tests','.github','reports','dist']
-files=['package.json','pnpm-lock.yaml','pnpm-workspace.yaml','index.html','vite.config.ts','tsconfig.json','.gitignore','README.md','LICENSE','THIRD_PARTY.md','CHANGELOG.md','DELIVERY.md','启动网站.cmd']
+name=OUT/'ielts-academic-studio-v1.4.0.zip'
+allowed=['content','content-reserve','src','public','scripts','docs','tests','.github','reports','dist']
+files=['package.json','pnpm-lock.yaml','pnpm-workspace.yaml','index.html','vite.config.ts','tsconfig.json','.gitignore','AGENTS.md','README.md','LICENSE','THIRD_PARTY.md','CHANGELOG.md','DELIVERY.md','启动网站.cmd']
 with zipfile.ZipFile(name,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as z:
  for d in allowed:
   for f in (ROOT/d).rglob('*'):

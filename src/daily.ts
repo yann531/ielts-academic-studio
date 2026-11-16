@@ -1,3 +1,4 @@
+import {planVocabulary,balancedWords,activeWord} from './vocab-state';
 import type {AppState,Word} from './types';
 import type {ContentBank} from './content-updates';
 import {localDate,weekStart,makeWeek,parsePlan} from './planner';
@@ -15,20 +16,21 @@ export function arrangeDaily(state:AppState,content:ContentBank,words:Word[],tod
   for(const t of plan.days[index].tasks.filter(t=>t.id!=='vocab')){const id='daily-'+date+'-'+t.id;if(!c.items.some(x=>x.id===id))c.items.push({id,kind:t.id==='reflect'?'reflect':'main',origin:date,title:t.title,skill:t.skill,ref:t.ref,part:t.part,doneAt:state.completed.includes(`${key}:${index}:${t.id}`)?date:undefined});}
  }
  c.through=end>c.through?end:c.through;
- const reserved=new Set(c.items.flatMap(t=>t.wordId?[t.wordId]:[]));
- for(const w of words)if(!reserved.has(w.id)&&(!state.cards[w.id]||(state.cards[w.id].status==='learning'&&state.cards[w.id].reps===0))){c.items.push({id:'daily-word-'+w.id,kind:'new',origin:today,title:w.term,skill:'vocab',wordId:w.id});reserved.add(w.id);}
- // Learning in the free word bank also counts; suspended/mastered cards are not forced back into lessons.
- for(const t of c.items)if(t.kind==='new'&&!t.doneAt&&t.wordId){const card=state.cards[t.wordId];if(card&&(card.reps>0||card.status!=='learning'))t.doneAt=today;}
+ const vocab=state.vocabulary??planVocabulary(state,words,today),bank=new Map(words.map(w=>[w.id,w]));
+ const ensureItem=(id:string)=>{const w=bank.get(id);if(!w)return;let item=c.items.find(t=>t.wordId===id);if(!item){item={id:'daily-word-'+id,kind:'new',origin:vocab.tasks[id]?.origin??today,title:w.term,skill:'vocab',wordId:id};c.items.push(item);}if(vocab.tasks[id])item.origin=vocab.tasks[id].origin;item.doneAt=vocab.tasks[id]?.doneAt??(vocab.progress[id]?.firstLearned?today:undefined);};
+ for(const day of Object.values(vocab.days))for(const id of day.newIds)ensureItem(id);
+ const projected=new Set(Object.values(vocab.days).filter(d=>d.date<=today).flatMap(d=>d.newIds));
+ const pending=Object.entries(vocab.tasks).filter(([id,t])=>!t.doneAt&&!vocab.days[today]?.newIds.includes(id)&&activeWord(bank.get(id),vocab)).sort((a,b)=>a[1].origin.localeCompare(b[1].origin)).map(([id])=>bank.get(id)!);
+ const futureWords=[...pending,...balancedWords(words.filter(w=>activeWord(w,vocab)&&!vocab.progress[w.id]?.firstLearned&&!vocab.tasks[w.id]&&!projected.has(w.id)),today+'-preview')];
  const assigned=new Set<string>();
  for(let date=today;date<=end;date=datePlus(date,1)){
-  const finished=c.items.filter(t=>t.doneAt===date),ids=finished.map(t=>t.id);
-  for(const [kind,capacity] of [['new',limit],['main',1],['reflect',1]] as const){const slots=Math.max(0,capacity-finished.filter(t=>t.kind===kind).length);const pending=c.items.filter(t=>t.kind===kind&&!t.doneAt&&t.origin<=date&&!assigned.has(t.id)).sort((a,b)=>a.origin.localeCompare(b.origin));for(const t of pending.slice(0,slots)){ids.push(t.id);assigned.add(t.id);}}
-  c.days[date]=ids;
+  const finished=c.items.filter(t=>t.kind!=='new'&&t.doneAt===date),ids=finished.map(t=>t.id);
+  for(const [kind,capacity] of [['main',1],['reflect',1]] as const){const slots=Math.max(0,capacity-finished.filter(t=>t.kind===kind).length);const pending=c.items.filter(t=>t.kind===kind&&!t.doneAt&&t.origin<=date&&!assigned.has(t.id)).sort((a,b)=>a.origin.localeCompare(b.origin));for(const t of pending.slice(0,slots)){ids.push(t.id);assigned.add(t.id);}}
+  const wordIds=date===today?(vocab.days[date]?.newIds??[]):futureWords.splice(0,limit).map(w=>w.id);
+  for(const id of wordIds)ensureItem(id);
+  c.days[date]=[...wordIds.map(id=>'daily-word-'+id),...ids];
  }
- const review=c.reviews[today]??={ids:[],done:[]};
- review.done=[...new Set([...review.done,...state.reviews.filter(r=>localDate(new Date(r.at))===today).map(r=>r.wordId)])];
- const due=words.filter(w=>{const card=state.cards[w.id];return card?.status==='learning'&&card.reps>0&&card.due<=Date.now()&&!review.ids.includes(w.id)&&!review.done.includes(w.id);}).sort((a,b)=>state.cards[a.id].due-state.cards[b.id].due);
- review.ids.push(...due.slice(0,Math.max(0,30-review.ids.length)).map(w=>w.id));
+ const review=vocab.days[today];c.reviews[today]={ids:review?.reviewIds??[],done:review?.reviewDone??[]};
  return c;
 }
 export function finishDaily(state:AppState,id:string,today=localDate(new Date())){const c=readCourse(state),t=c?.items.find(t=>t.id===id);if(c&&t&&!t.doneAt){t.doneAt=today;state.notes[COURSE_KEY]=JSON.stringify(c);}}

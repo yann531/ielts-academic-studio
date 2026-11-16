@@ -1,7 +1,7 @@
 """Rebuild base and expansions in order; restore already-released weekly packs."""
 import subprocess,json,sys
 from pathlib import Path
-for script in ['seed-content.py','seed-listening.py','seed-production.py','seed-vocab.py','expand-reading.py','expand-listening.py','expand-production.py','expand-vocabulary.py']:
+for script in ['seed-content.py','seed-listening.py','seed-production.py','seed-vocab.py','expand-reading.py','expand-listening.py','expand-production.py','expand-vocabulary.py','curate-vocabulary.py']:
  subprocess.run([sys.executable,str(Path('scripts')/script)],check=True)
 p=Path('src/data/papers.json');papers=json.loads(p.read_text(encoding='utf-8'))
 history=Path('content-reserve/released.json')
