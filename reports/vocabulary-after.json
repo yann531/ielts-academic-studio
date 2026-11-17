@@ -52,5 +52,8 @@
   "legacyIdsPreserved": true,
   "rewrittenLegacyExamples": 285,
   "distinctExamples": 610,
-  "genericUsageNotes": 0
+  "genericUsageNotes": 0,
+  "withIPA": 767,
+  "withUSIPA": 430,
+  "withComponentIPA": 337
 }

@@ -8,6 +8,7 @@
 - `additions.tsv`：新增和重点重写条目；按规范化词条去重，已有词沿用旧 ID。
 - `example-revisions.tsv`、`examples-academic.tsv`、`examples-core.tsv`：语境重写及对应译文，后批次优先；旧搭配子卡同步译文。
 - `pronunciation-forms.tsv`：有把握的英式音标、词形和显式可接受拼写变体，未覆盖的留空，不伪造。
+- `phonetics-us.json`、`phonetics-supplement.tsv`：固定来源的美式音标选集及缺失项补充；来源、许可与短语分词规则见 [音标说明](PHONETICS.md)。
 
 格式用 `|` 分隔，首行 `#` 为注释。修改后运行 `python -X utf8 scripts/curate-vocabulary.py`。脚本确定性生成，不需要在线接口，重复运行不会增加重复词条。新增批次应检查词义、自然搭配、译文一致性和是否保留既有 ID。不要用通用提示代替具体辨析。
 

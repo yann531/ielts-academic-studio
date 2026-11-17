@@ -60,8 +60,10 @@ for _,r in [*rows('example-revisions.tsv'),*rows('examples-academic.tsv'),*rows(
   if card['example']==old:card['example']=example;card['examples']=[{'text':example,'translation':translation}]
 retired={'depend on','take part in','give back','give someone a hand','make time for','be keen on','get around','figure out','sort out','opposite','allow extra time','solvency','remuneration','succession planning','interoperability','amenities'}
 meta={r[0]:r[1:] for _,r in rows('pronunciation-forms.tsv')}
+phonetics=json.loads((folder/'phonetics-us.json').read_text(encoding='utf-8'))
+phonetic_entries={**phonetics['entries'],**{r[0]:r[1] for _,r in rows('phonetics-supplement.tsv')}}
 for w in words:
- w['contentVersion']='2026-11-16.1'
+ w['contentVersion']='2026-11-17.1'
  w['source']='本站主题选编；中文释义、搭配释义与例句译文为独立整理；非雅思官方词表。'
  w['sources']=[{'title':'Cambridge 学习词典（供逐条查证，非逐页核验声明）','url':'https://dictionary.cambridge.org/search/english/direct/?q='+__import__('urllib.parse',fromlist=['quote']).quote(w['term']),'kind':'lookup'}]
  w['tags']=[w['topic'],'IELTS Academic','搭配' if w['kind']=='phrase' else '核心词义']
@@ -70,6 +72,13 @@ for w in words:
   if ipa:w['pronunciation']=ipa
   if forms:w['forms']=forms.split(';')
   if variants:w['spellingVariants']=variants.split(';')
+ term=w['term'].lower()
+ if term in phonetic_entries:w['pronunciationUS']=phonetic_entries[term]
+ else:
+  components=re.findall(r"[a-z]+(?:'[a-z]+)?",term)
+  assert all(p in phonetic_entries for p in components),('Missing IPA',term,[p for p in components if p not in phonetic_entries])
+  w['pronunciationParts']=[{'term':p,'ipa':phonetic_entries[p]} for p in components]
+ w['sources'].append({'title':'美式音标：ipa-dict / CMUdict；短语为逐词读音，补充项另见项目说明','url':'https://github.com/open-dict-data/ipa-dict/blob/972cd67dd5f96bc5660e28070cde26e3928abcd7/data/en_US.txt','kind':'reference'})
  parent=parents.get((w['collocation'],w['example'])) if w['id'].startswith('x-phrase-') else None
  if w['term'] in retired or (parent and parent['term'] in retired):w.update(retired=True,retirementReason='难度或主题价值优先级较低，或与现有词形重复；保留旧 ID 和历史，不再派发。')
  # Specific quality statements only; no generated generic advice.
@@ -80,6 +89,6 @@ active=[w for w in words if not w.get('retired')]
 report={'total':len(words),'active':len(active),'retainedLegacy':len(words)-len(active),'added':len(added),'enrichedInsteadOfDuplicated':existing_additions,'topics':dict(sorted(collections.Counter(w['topic'] for w in active).items())),'kinds':dict(collections.Counter(w['kind'] for w in active)),'translatedEntries':len(words),'withUKIPA':sum(bool(w.get('pronunciation')) for w in words),'withForms':sum(bool(w.get('forms')) for w in words),'duplicateTerms':[],'sourcePolicy':'Selection: IELTS lexical resource criteria, AWL, Academic Phrasebank. Individual dictionary URLs are lookup links, not claims of individual web verification. Definitions/examples/translations are independently authored and not certified by IELTS.'}
 baseline=json.loads((folder/'legacy-base.json').read_text(encoding='utf-8'))
 current={w['id']:w for w in words}
-report.update(legacyIdsPreserved=all(w['id'] in current for w in baseline),rewrittenLegacyExamples=sum(w['example']!=current[w['id']]['example'] for w in baseline),distinctExamples=len(set(w['example'] for w in words)),genericUsageNotes=0)
+report.update(legacyIdsPreserved=all(w['id'] in current for w in baseline),rewrittenLegacyExamples=sum(w['example']!=current[w['id']]['example'] for w in baseline),distinctExamples=len(set(w['example'] for w in words)),genericUsageNotes=0,withIPA=sum(bool(w.get('pronunciation') or w.get('pronunciationUS') or w.get('pronunciationParts')) for w in words),withUSIPA=sum(bool(w.get('pronunciationUS')) for w in words),withComponentIPA=sum(bool(w.get('pronunciationParts')) for w in words))
 (ROOT/'reports/vocabulary-after.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(report,ensure_ascii=False,indent=2))

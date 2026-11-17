@@ -7,4 +7,4 @@ export const AppContext=createContext<ContextValue>(null!);
 export const useApp=()=>useContext(AppContext);
 export const go=(page:string)=>{location.hash=page;window.scrollTo({top:0,behavior:'smooth'});};
 export async function copyText(text:string){await navigator.clipboard.writeText(text);}
-export function speak(text:string){if(!('speechSynthesis' in window))return false;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang='en-GB';u.rate=.88;speechSynthesis.speak(u);return true;}
+export function speak(text:string,language='en-GB'){if(!('speechSynthesis' in window))return false;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang=language;u.rate=.88;speechSynthesis.speak(u);return true;}
